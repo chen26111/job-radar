@@ -35,7 +35,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -77,7 +77,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -107,7 +107,7 @@
       "行业:医疗/医药",
       "role_match",
       "产品设计",
-      "组长",
+      "负责人",
       "industry_match",
       "外企",
       "仅社招"
@@ -118,7 +118,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -160,7 +160,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -5796,23 +5796,23 @@
     }
   },
   {
-    "job_id": "wd-pfizer:61fb93a6bb844b9f",
-    "dedup_key": "61fb93a6bb844b9f",
+    "job_id": "wd-pfizer:0c9466688e101a74",
+    "dedup_key": "0c9466688e101a74",
     "source_id": "wd-pfizer",
     "company_name": "辉瑞",
-    "title": "MBU-高级医学信息沟通主管-湖州",
-    "location": "China - Zhejiang - Huzhou",
+    "title": "医学信息沟通专员",
+    "location": "China - Beijing - Beijing",
     "org_type": "tech",
     "industry": "医疗/医药",
     "job_type": "unknown",
     "publish_time": "",
     "deadline": "",
-    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Zhejiang---Huzhou/MBU--_4966296",
-    "backup_url": "",
+    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Beijing---Beijing/_4966344-2",
+    "backup_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Xinjiang---Wulumuqi/_4961348",
     "salary": "",
     "employment_type": "",
     "identifier": "",
-    "jd_text": "MBU-高级医学信息沟通主管-湖州",
+    "jd_text": "医学信息沟通专员",
     "tags": [
       "行业:医疗/医药",
       "非设计岗",
@@ -5820,11 +5820,13 @@
     ],
     "match_score": 0,
     "source_confidence": 90,
-    "risk_flags": [],
+    "risk_flags": [
+      "repeat_posting"
+    ],
     "status": "new",
-    "seen_count": 1,
+    "seen_count": 17,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -5833,23 +5835,23 @@
     }
   },
   {
-    "job_id": "wd-pfizer:87dcbf8d4fd63d6d",
-    "dedup_key": "87dcbf8d4fd63d6d",
+    "job_id": "wd-pfizer:97594581e666e513",
+    "dedup_key": "97594581e666e513",
     "source_id": "wd-pfizer",
     "company_name": "辉瑞",
-    "title": "MBU-医学信息沟通专员-杭州",
-    "location": "China - Zhejiang - Hangzhou",
+    "title": "代谢事业部-医学信息沟通专员（MICS）-广州",
+    "location": "China - Guangdong - Guangzhou",
     "org_type": "tech",
     "industry": "医疗/医药",
     "job_type": "unknown",
     "publish_time": "",
     "deadline": "",
-    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Zhejiang---Hangzhou/MBU--_4966293",
+    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Guangdong---Guangzhou/--MICS--_4966346",
     "backup_url": "",
     "salary": "",
     "employment_type": "",
     "identifier": "",
-    "jd_text": "MBU-医学信息沟通专员-杭州",
+    "jd_text": "代谢事业部-医学信息沟通专员（MICS）-广州",
     "tags": [
       "行业:医疗/医药",
       "非设计岗",
@@ -5860,119 +5862,8 @@
     "risk_flags": [],
     "status": "new",
     "seen_count": 1,
-    "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "今天发布"
-    }
-  },
-  {
-    "job_id": "wd-pfizer:dc380f8279d761b6",
-    "dedup_key": "dc380f8279d761b6",
-    "source_id": "wd-pfizer",
-    "company_name": "辉瑞",
-    "title": "MBU-高级医学信息沟通专员-杭州",
-    "location": "China - Zhejiang - Hangzhou",
-    "org_type": "tech",
-    "industry": "医疗/医药",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Zhejiang---Hangzhou/MBU--_4966294",
-    "backup_url": "",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "MBU-高级医学信息沟通专员-杭州",
-    "tags": [
-      "行业:医疗/医药",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [],
-    "status": "new",
-    "seen_count": 1,
-    "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "今天发布"
-    }
-  },
-  {
-    "job_id": "wd-pfizer:fde548afabbc5227",
-    "dedup_key": "fde548afabbc5227",
-    "source_id": "wd-pfizer",
-    "company_name": "辉瑞",
-    "title": "Sr Manager, Tax Planning - Shanghai",
-    "location": "China - Shanghai - Shanghai",
-    "org_type": "tech",
-    "industry": "医疗/医药",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Shanghai---Shanghai/Sr-Manager--Tax-Planning---Shanghai_4966271-1",
-    "backup_url": "",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "Sr Manager, Tax Planning - Shanghai",
-    "tags": [
-      "行业:医疗/医药",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [],
-    "status": "new",
-    "seen_count": 1,
-    "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "今天发布"
-    }
-  },
-  {
-    "job_id": "wd-pfizer:0811d723bf237495",
-    "dedup_key": "0811d723bf237495",
-    "source_id": "wd-pfizer",
-    "company_name": "辉瑞",
-    "title": "LC Patient Solution Innovation Lead",
-    "location": "China - Shanghai - Shanghai / China - Beijing - Beijing",
-    "org_type": "tech",
-    "industry": "医疗/医药",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Shanghai---Shanghai/LC-Patient-Solution-Innovation-Lead_4966048",
-    "backup_url": "",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "LC Patient Solution Innovation Lead",
-    "tags": [
-      "行业:医疗/医药",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [],
-    "status": "new",
-    "seen_count": 1,
-    "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "first_seen": "2026-10-23T06:29:18.423356+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6009,7 +5900,303 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
+    }
+  },
+  {
+    "job_id": "wd-pfizer:87dcbf8d4fd63d6d",
+    "dedup_key": "87dcbf8d4fd63d6d",
+    "source_id": "wd-pfizer",
+    "company_name": "辉瑞",
+    "title": "MBU-医学信息沟通专员-杭州",
+    "location": "China - Zhejiang - Hangzhou",
+    "org_type": "tech",
+    "industry": "医疗/医药",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Zhejiang---Hangzhou/MBU--_4966293",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "MBU-医学信息沟通专员-杭州",
+    "tags": [
+      "行业:医疗/医药",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-22T09:00:31.871953+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
+    }
+  },
+  {
+    "job_id": "wd-pfizer:dc380f8279d761b6",
+    "dedup_key": "dc380f8279d761b6",
+    "source_id": "wd-pfizer",
+    "company_name": "辉瑞",
+    "title": "MBU-高级医学信息沟通专员-杭州",
+    "location": "China - Zhejiang - Hangzhou",
+    "org_type": "tech",
+    "industry": "医疗/医药",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Zhejiang---Hangzhou/MBU--_4966294",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "MBU-高级医学信息沟通专员-杭州",
+    "tags": [
+      "行业:医疗/医药",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-22T09:00:31.871953+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
+    }
+  },
+  {
+    "job_id": "wd-pfizer:61fb93a6bb844b9f",
+    "dedup_key": "61fb93a6bb844b9f",
+    "source_id": "wd-pfizer",
+    "company_name": "辉瑞",
+    "title": "MBU-高级医学信息沟通主管-湖州",
+    "location": "China - Zhejiang - Huzhou",
+    "org_type": "tech",
+    "industry": "医疗/医药",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Zhejiang---Huzhou/MBU--_4966296",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "MBU-高级医学信息沟通主管-湖州",
+    "tags": [
+      "行业:医疗/医药",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-22T09:00:31.871953+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
+    }
+  },
+  {
+    "job_id": "wd-pfizer:302593c5a408a5e5",
+    "dedup_key": "302593c5a408a5e5",
+    "source_id": "wd-pfizer",
+    "company_name": "辉瑞",
+    "title": "MBU-高级医学信息沟通专员-温州",
+    "location": "China - Zhejiang - Wenzhou",
+    "org_type": "tech",
+    "industry": "医疗/医药",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Zhejiang---Wenzhou/MBU--_4966326",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "MBU-高级医学信息沟通专员-温州",
+    "tags": [
+      "行业:医疗/医药",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-23T06:29:18.423356+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
+    }
+  },
+  {
+    "job_id": "wd-pfizer:a56035b11c126258",
+    "dedup_key": "a56035b11c126258",
+    "source_id": "wd-pfizer",
+    "company_name": "辉瑞",
+    "title": "MBU-医学信息沟通专员-温州",
+    "location": "China - Zhejiang - Wenzhou",
+    "org_type": "tech",
+    "industry": "医疗/医药",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Zhejiang---Wenzhou/MBU--_4966327",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "MBU-医学信息沟通专员-温州",
+    "tags": [
+      "行业:医疗/医药",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-23T06:29:18.423356+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
+    }
+  },
+  {
+    "job_id": "wd-pfizer:552ed90d3899de7d",
+    "dedup_key": "552ed90d3899de7d",
+    "source_id": "wd-pfizer",
+    "company_name": "辉瑞",
+    "title": "MBU-高级医学信息沟通专员-丽水",
+    "location": "China - Zhejiang - Lishui",
+    "org_type": "tech",
+    "industry": "医疗/医药",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Zhejiang---Lishui/MBU--_4966328",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "MBU-高级医学信息沟通专员-丽水",
+    "tags": [
+      "行业:医疗/医药",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-23T06:29:18.423356+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
+    }
+  },
+  {
+    "job_id": "wd-pfizer:fde548afabbc5227",
+    "dedup_key": "fde548afabbc5227",
+    "source_id": "wd-pfizer",
+    "company_name": "辉瑞",
+    "title": "Sr Manager, Tax Planning - Shanghai",
+    "location": "China - Shanghai - Shanghai",
+    "org_type": "tech",
+    "industry": "医疗/医药",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Shanghai---Shanghai/Sr-Manager--Tax-Planning---Shanghai_4966271-1",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "Sr Manager, Tax Planning - Shanghai",
+    "tags": [
+      "行业:医疗/医药",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-22T09:00:31.871953+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
+    }
+  },
+  {
+    "job_id": "wd-pfizer:0811d723bf237495",
+    "dedup_key": "0811d723bf237495",
+    "source_id": "wd-pfizer",
+    "company_name": "辉瑞",
+    "title": "LC Patient Solution Innovation Lead",
+    "location": "China - Shanghai - Shanghai / China - Beijing - Beijing",
+    "org_type": "tech",
+    "industry": "医疗/医药",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Shanghai---Shanghai/LC-Patient-Solution-Innovation-Lead_4966048",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "LC Patient Solution Innovation Lead",
+    "tags": [
+      "行业:医疗/医药",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6048,7 +6235,7 @@
     "status": "new",
     "seen_count": 3,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6085,7 +6272,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6122,44 +6309,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "今天发布"
-    }
-  },
-  {
-    "job_id": "wd-pfizer:b8bf7563c470a2da",
-    "dedup_key": "b8bf7563c470a2da",
-    "source_id": "wd-pfizer",
-    "company_name": "辉瑞",
-    "title": "代谢事业部-医学信息沟通专员-海口",
-    "location": "China - Hainan - Haikou",
-    "org_type": "tech",
-    "industry": "医疗/医药",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Hainan---Haikou/--_4966003-2",
-    "backup_url": "",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "代谢事业部-医学信息沟通专员-海口",
-    "tags": [
-      "行业:医疗/医药",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [],
-    "status": "new",
-    "seen_count": 1,
-    "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6196,7 +6346,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6233,7 +6383,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6270,46 +6420,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "发布于昨天"
-    }
-  },
-  {
-    "job_id": "wd-pfizer:0c9466688e101a74",
-    "dedup_key": "0c9466688e101a74",
-    "source_id": "wd-pfizer",
-    "company_name": "辉瑞",
-    "title": "医学信息沟通专员",
-    "location": "China - Heilongjiang - Daqing",
-    "org_type": "tech",
-    "industry": "医疗/医药",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Heilongjiang---Daqing/_4965661",
-    "backup_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Beijing---Beijing/_4965761",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "医学信息沟通专员",
-    "tags": [
-      "行业:医疗/医药",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [
-      "repeat_posting"
-    ],
-    "status": "new",
-    "seen_count": 17,
-    "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6346,7 +6457,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6383,7 +6494,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6420,7 +6531,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6459,44 +6570,7 @@
     "status": "new",
     "seen_count": 4,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "发布于 3 天前"
-    }
-  },
-  {
-    "job_id": "wd-pfizer:f3565c7dcb7c0940",
-    "dedup_key": "f3565c7dcb7c0940",
-    "source_id": "wd-pfizer",
-    "company_name": "辉瑞",
-    "title": "代谢事业部-医学信息沟通专员-大连",
-    "location": "China - Liaoning - Dalian",
-    "org_type": "tech",
-    "industry": "医疗/医药",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Liaoning---Dalian/--_4965970-1",
-    "backup_url": "",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "代谢事业部-医学信息沟通专员-大连",
-    "tags": [
-      "行业:医疗/医药",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [],
-    "status": "new",
-    "seen_count": 1,
-    "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6533,7 +6607,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6570,7 +6644,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6607,7 +6681,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6644,7 +6718,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6681,7 +6755,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6718,7 +6792,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6755,49 +6829,12 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
       "needs_ai": true,
       "posted_on": "发布于 7 天前"
-    }
-  },
-  {
-    "job_id": "wd-pfizer:1489d4641856a406",
-    "dedup_key": "1489d4641856a406",
-    "source_id": "wd-pfizer",
-    "company_name": "辉瑞",
-    "title": "河北一线MICS-石家庄",
-    "location": "China - Hebei - Shijiazhuang",
-    "org_type": "tech",
-    "industry": "医疗/医药",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Hebei---Shijiazhuang/MICS-_4964536",
-    "backup_url": "",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "河北一线MICS-石家庄",
-    "tags": [
-      "行业:医疗/医药",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [],
-    "status": "new",
-    "seen_count": 1,
-    "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "发布于 8 天前"
     }
   },
   {
@@ -6831,7 +6868,7 @@
     "status": "new",
     "seen_count": 3,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6868,7 +6905,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6905,7 +6942,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6942,7 +6979,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -6979,7 +7016,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7016,7 +7053,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7053,7 +7090,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7074,7 +7111,7 @@
     "publish_time": "",
     "deadline": "",
     "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Guangdong---Guangzhou/--_4965575",
-    "backup_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Guangdong---Guangzhou/--_4961333",
+    "backup_url": "",
     "salary": "",
     "employment_type": "",
     "identifier": "",
@@ -7090,44 +7127,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "发布于 12 天前"
-    }
-  },
-  {
-    "job_id": "wd-pfizer:ace26fcdf2022b03",
-    "dedup_key": "ace26fcdf2022b03",
-    "source_id": "wd-pfizer",
-    "company_name": "辉瑞",
-    "title": "代谢事业部-医学信息沟通专员-南宁",
-    "location": "China - Guangxi - Nanning",
-    "org_type": "tech",
-    "industry": "医疗/医药",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Guangxi---Nanning/--_4965584",
-    "backup_url": "",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "代谢事业部-医学信息沟通专员-南宁",
-    "tags": [
-      "行业:医疗/医药",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [],
-    "status": "new",
-    "seen_count": 1,
-    "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7164,7 +7164,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7201,7 +7201,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7238,7 +7238,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7275,7 +7275,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7312,7 +7312,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7349,7 +7349,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7386,7 +7386,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7423,7 +7423,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7460,7 +7460,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7497,7 +7497,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7518,7 +7518,7 @@
     "publish_time": "",
     "deadline": "",
     "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Guangdong---Zhongshan/--_4964478-2",
-    "backup_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Guangdong---Zhongshan/--_4961354-2",
+    "backup_url": "",
     "salary": "",
     "employment_type": "",
     "identifier": "",
@@ -7534,7 +7534,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7571,7 +7571,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7608,7 +7608,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7647,7 +7647,7 @@
     "status": "new",
     "seen_count": 3,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7684,7 +7684,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7721,7 +7721,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7758,7 +7758,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7795,7 +7795,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7832,7 +7832,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7869,7 +7869,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7906,7 +7906,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7943,7 +7943,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -7980,7 +7980,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8017,7 +8017,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8054,7 +8054,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8091,7 +8091,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8128,7 +8128,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8165,7 +8165,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8202,7 +8202,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8239,7 +8239,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8276,7 +8276,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8313,7 +8313,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8350,7 +8350,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8387,7 +8387,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8424,7 +8424,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8461,7 +8461,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8498,7 +8498,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8535,7 +8535,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8572,7 +8572,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8609,7 +8609,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8646,7 +8646,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8683,7 +8683,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8720,7 +8720,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8757,7 +8757,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8794,7 +8794,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8831,7 +8831,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8868,7 +8868,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8905,7 +8905,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8942,7 +8942,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -8979,7 +8979,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9016,7 +9016,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9053,7 +9053,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9090,7 +9090,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9127,7 +9127,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9164,7 +9164,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9201,7 +9201,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9238,7 +9238,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9275,7 +9275,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9312,7 +9312,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9349,7 +9349,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9386,7 +9386,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9423,7 +9423,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9460,7 +9460,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9497,7 +9497,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9534,7 +9534,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9573,7 +9573,7 @@
     "status": "new",
     "seen_count": 3,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9610,7 +9610,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9647,7 +9647,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9684,7 +9684,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9721,7 +9721,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9758,7 +9758,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9795,7 +9795,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9832,7 +9832,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9869,7 +9869,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9906,7 +9906,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -9943,44 +9943,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "发布于 30 天前"
-    }
-  },
-  {
-    "job_id": "wd-pfizer:5f5adaafe22ed7db",
-    "dedup_key": "5f5adaafe22ed7db",
-    "source_id": "wd-pfizer",
-    "company_name": "辉瑞",
-    "title": "代谢事业部-医学信息沟通专员-佛山",
-    "location": "China - Guangdong - Foshan",
-    "org_type": "tech",
-    "industry": "医疗/医药",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Guangdong---Foshan/--_4961352",
-    "backup_url": "",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "代谢事业部-医学信息沟通专员-佛山",
-    "tags": [
-      "行业:医疗/医药",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [],
-    "status": "new",
-    "seen_count": 1,
-    "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10017,7 +9980,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10054,7 +10017,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10091,7 +10054,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10128,7 +10091,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10165,7 +10128,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10202,7 +10165,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10239,7 +10202,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10276,44 +10239,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "发布于 30 天前"
-    }
-  },
-  {
-    "job_id": "wd-pfizer:decab02c63c01eff",
-    "dedup_key": "decab02c63c01eff",
-    "source_id": "wd-pfizer",
-    "company_name": "辉瑞",
-    "title": "Pharmaceutical Sciences (PharmSci) China Project Lead",
-    "location": "China - Shanghai - STIT / China - Beijing - Beijing",
-    "org_type": "tech",
-    "industry": "医疗/医药",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Shanghai---STIT/Pharmaceutical-Sciences--PharmSci--China-Project-Lead_4959786-2",
-    "backup_url": "",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "Pharmaceutical Sciences (PharmSci) China Project Lead",
-    "tags": [
-      "行业:医疗/医药",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [],
-    "status": "new",
-    "seen_count": 1,
-    "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10350,7 +10276,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10387,7 +10313,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10424,7 +10350,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10461,7 +10387,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10498,7 +10424,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10535,7 +10461,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10572,7 +10498,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10609,7 +10535,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10646,7 +10572,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10683,7 +10609,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10720,7 +10646,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10757,7 +10683,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10794,7 +10720,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10831,7 +10757,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10868,7 +10794,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10905,7 +10831,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10942,7 +10868,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -10979,7 +10905,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11016,7 +10942,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11053,7 +10979,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11090,7 +11016,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11127,7 +11053,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11164,7 +11090,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11201,7 +11127,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11238,7 +11164,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11275,7 +11201,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11312,7 +11238,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11349,7 +11275,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11386,7 +11312,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11423,7 +11349,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11460,12 +11386,394 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
       "needs_ai": true,
       "posted_on": "发布于 30 天前"
+    }
+  },
+  {
+    "job_id": "wd-statestreet:32235359bc1903dd",
+    "dedup_key": "32235359bc1903dd",
+    "source_id": "wd-statestreet",
+    "company_name": "道富",
+    "title": "Alternative Ops Fund Accounting, AVP",
+    "location": "Hangzhou, China",
+    "org_type": "finance",
+    "industry": "金融",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--AVP_R-800180",
+    "backup_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--AVP_R-800166",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "Alternative Ops Fund Accounting, AVP",
+    "tags": [
+      "行业:金融",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [
+      "repeat_posting"
+    ],
+    "status": "new",
+    "seen_count": 6,
+    "first_seen": "2026-10-22T09:00:31.871953+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
+    }
+  },
+  {
+    "job_id": "wd-statestreet:000e53a389106276",
+    "dedup_key": "000e53a389106276",
+    "source_id": "wd-statestreet",
+    "company_name": "道富",
+    "title": "Alternative Ops Fund Accounting, Officer",
+    "location": "Hangzhou, China",
+    "org_type": "finance",
+    "industry": "金融",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Officer_R-800179",
+    "backup_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Officer_R-800163",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "Alternative Ops Fund Accounting, Officer",
+    "tags": [
+      "行业:金融",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [
+      "repeat_posting"
+    ],
+    "status": "new",
+    "seen_count": 10,
+    "first_seen": "2026-10-22T09:00:31.871953+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
+    }
+  },
+  {
+    "job_id": "wd-statestreet:017d21eda3f5c40f",
+    "dedup_key": "017d21eda3f5c40f",
+    "source_id": "wd-statestreet",
+    "company_name": "道富",
+    "title": "Alternative Ops Fund Accounting, Senior Associate",
+    "location": "Hangzhou, China",
+    "org_type": "finance",
+    "industry": "金融",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Senior-Associate_R-800178",
+    "backup_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Senior-Associate_R-799373",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "Alternative Ops Fund Accounting, Senior Associate",
+    "tags": [
+      "行业:金融",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [
+      "repeat_posting"
+    ],
+    "status": "new",
+    "seen_count": 32,
+    "first_seen": "2026-10-22T09:00:31.871953+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
+    }
+  },
+  {
+    "job_id": "wd-statestreet:b99bf67a31daca67",
+    "dedup_key": "b99bf67a31daca67",
+    "source_id": "wd-statestreet",
+    "company_name": "道富",
+    "title": "Alternative Ops Fund Accounting, Associate 2",
+    "location": "Hangzhou, China",
+    "org_type": "finance",
+    "industry": "金融",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Associate-2_R-800177",
+    "backup_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Associate-2_R-800176-1",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "Alternative Ops Fund Accounting, Associate 2",
+    "tags": [
+      "行业:金融",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [
+      "repeat_posting"
+    ],
+    "status": "new",
+    "seen_count": 18,
+    "first_seen": "2026-10-22T09:00:31.871953+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
+    }
+  },
+  {
+    "job_id": "wd-statestreet:a23d9ba1dd99396f",
+    "dedup_key": "a23d9ba1dd99396f",
+    "source_id": "wd-statestreet",
+    "company_name": "道富",
+    "title": "Alternative Ops Fund Accounting, Associate 1",
+    "location": "Hangzhou, China",
+    "org_type": "finance",
+    "industry": "金融",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Associate-1_R-800171-1",
+    "backup_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Associate-1_R-800069",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "Alternative Ops Fund Accounting, Associate 1",
+    "tags": [
+      "行业:金融",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [
+      "repeat_posting"
+    ],
+    "status": "new",
+    "seen_count": 13,
+    "first_seen": "2026-10-22T09:00:31.871953+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
+    }
+  },
+  {
+    "job_id": "wd-statestreet:8da3a1cad9b4e570",
+    "dedup_key": "8da3a1cad9b4e570",
+    "source_id": "wd-statestreet",
+    "company_name": "道富",
+    "title": "Alternative Ops Clearance, Settlement, & Trading Ops, Associate 1",
+    "location": "Hangzhou, China",
+    "org_type": "finance",
+    "industry": "金融",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Clearance--Settlement----Trading-Ops--Associate-1_R-800172",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "Alternative Ops Clearance, Settlement, & Trading Ops, Associate 1",
+    "tags": [
+      "行业:金融",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-23T06:29:18.423356+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
+    }
+  },
+  {
+    "job_id": "wd-statestreet:f338351bd8fe7d9a",
+    "dedup_key": "f338351bd8fe7d9a",
+    "source_id": "wd-statestreet",
+    "company_name": "道富",
+    "title": "Alternative Ops Clearance, Settlement, & Trading Ops, Associate1",
+    "location": "Hangzhou, China",
+    "org_type": "finance",
+    "industry": "金融",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Associate-1_R-800070",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "Alternative Ops Clearance, Settlement, & Trading Ops, Associate1",
+    "tags": [
+      "行业:金融",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-23T06:29:18.423356+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
+    }
+  },
+  {
+    "job_id": "wd-statestreet:b1f307eaed1261eb",
+    "dedup_key": "b1f307eaed1261eb",
+    "source_id": "wd-statestreet",
+    "company_name": "道富",
+    "title": "Alternative Ops Clearance, Settlement, & Trading Ops, Senior Associate",
+    "location": "Hangzhou, China",
+    "org_type": "finance",
+    "industry": "金融",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Clearance--Settlement----Trading-Ops--Senior-Associate_R-799622",
+    "backup_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Clearance--Settlement----trading-Ops--Senior-Associate_R-800168",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "Alternative Ops Clearance, Settlement, & Trading Ops, Senior Associate",
+    "tags": [
+      "行业:金融",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [
+      "repeat_posting"
+    ],
+    "status": "new",
+    "seen_count": 4,
+    "first_seen": "2026-10-22T09:00:31.871953+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
+    }
+  },
+  {
+    "job_id": "wd-statestreet:eaf5909cbf150b7c",
+    "dedup_key": "eaf5909cbf150b7c",
+    "source_id": "wd-statestreet",
+    "company_name": "道富",
+    "title": "Alternative Ops Clearance, Settlement, & Trading Ops, Associate2",
+    "location": "Hangzhou, China",
+    "org_type": "finance",
+    "industry": "金融",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Clearance--Settlement----Trading-Ops--Associate2_R-800170",
+    "backup_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Clearance--Settlement----Trading-Ops--Associate2_R-800169",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "Alternative Ops Clearance, Settlement, & Trading Ops, Associate2",
+    "tags": [
+      "行业:金融",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 2,
+    "first_seen": "2026-10-23T06:29:18.423356+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
+    }
+  },
+  {
+    "job_id": "wd-statestreet:7657e32366b122d4",
+    "dedup_key": "7657e32366b122d4",
+    "source_id": "wd-statestreet",
+    "company_name": "道富",
+    "title": "Alternative Ops Fund Accounting, Associate2",
+    "location": "Hangzhou, China",
+    "org_type": "finance",
+    "industry": "金融",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Associate2_R-800165",
+    "backup_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Associate2_R-790378",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "Alternative Ops Fund Accounting, Associate2",
+    "tags": [
+      "行业:金融",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 2,
+    "first_seen": "2026-10-22T09:00:31.871953+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "今天发布"
     }
   },
   {
@@ -11497,7 +11805,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11534,7 +11842,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11571,7 +11879,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11608,7 +11916,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11645,83 +11953,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "发布于昨天"
-    }
-  },
-  {
-    "job_id": "wd-statestreet:7657e32366b122d4",
-    "dedup_key": "7657e32366b122d4",
-    "source_id": "wd-statestreet",
-    "company_name": "道富",
-    "title": "Alternative Ops Fund Accounting, Associate2",
-    "location": "Hangzhou, China",
-    "org_type": "finance",
-    "industry": "金融",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Associate2_R-799378",
-    "backup_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Associate2_R-790378",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "Alternative Ops Fund Accounting, Associate2",
-    "tags": [
-      "行业:金融",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [],
-    "status": "new",
-    "seen_count": 2,
-    "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "发布于昨天"
-    }
-  },
-  {
-    "job_id": "wd-statestreet:017d21eda3f5c40f",
-    "dedup_key": "017d21eda3f5c40f",
-    "source_id": "wd-statestreet",
-    "company_name": "道富",
-    "title": "Alternative Ops Fund Accounting, Senior Associate",
-    "location": "Hangzhou, China",
-    "org_type": "finance",
-    "industry": "金融",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Officer_R-799527",
-    "backup_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Senior-Associate_R-799796",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "Alternative Ops Fund Accounting, Senior Associate",
-    "tags": [
-      "行业:金融",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [
-      "repeat_posting"
-    ],
-    "status": "new",
-    "seen_count": 30,
-    "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11758,46 +11990,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "发布于 2 天前"
-    }
-  },
-  {
-    "job_id": "wd-statestreet:a23d9ba1dd99396f",
-    "dedup_key": "a23d9ba1dd99396f",
-    "source_id": "wd-statestreet",
-    "company_name": "道富",
-    "title": "Alternative Ops Fund Accounting, Associate 1",
-    "location": "Hangzhou, China",
-    "org_type": "finance",
-    "industry": "金融",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Associate-1_R-799890",
-    "backup_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Associate-1_R-799432",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "Alternative Ops Fund Accounting, Associate 1",
-    "tags": [
-      "行业:金融",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [
-      "repeat_posting"
-    ],
-    "status": "new",
-    "seen_count": 10,
-    "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11834,88 +12027,12 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
       "needs_ai": true,
       "posted_on": "发布于 2 天前"
-    }
-  },
-  {
-    "job_id": "wd-statestreet:000e53a389106276",
-    "dedup_key": "000e53a389106276",
-    "source_id": "wd-statestreet",
-    "company_name": "道富",
-    "title": "Alternative Ops Fund Accounting, Officer",
-    "location": "Hangzhou, China",
-    "org_type": "finance",
-    "industry": "金融",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Officer_R-799790-1",
-    "backup_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Officer_R-799399",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "Alternative Ops Fund Accounting, Officer",
-    "tags": [
-      "行业:金融",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [
-      "repeat_posting"
-    ],
-    "status": "new",
-    "seen_count": 8,
-    "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "发布于 3 天前"
-    }
-  },
-  {
-    "job_id": "wd-statestreet:b1f307eaed1261eb",
-    "dedup_key": "b1f307eaed1261eb",
-    "source_id": "wd-statestreet",
-    "company_name": "道富",
-    "title": "Alternative Ops Clearance, Settlement, & Trading Ops, Senior Associate",
-    "location": "Hangzhou, China",
-    "org_type": "finance",
-    "industry": "金融",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Clearance--Settlement----Trading-Ops--Senior-Associate_R-799788",
-    "backup_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Clearance--Settlement----Trading-Ops--Senior-Associate_R-799622",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "Alternative Ops Clearance, Settlement, & Trading Ops, Senior Associate",
-    "tags": [
-      "行业:金融",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [],
-    "status": "new",
-    "seen_count": 2,
-    "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "发布于 3 天前"
     }
   },
   {
@@ -11947,7 +12064,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -11984,90 +12101,12 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
       "needs_ai": true,
       "posted_on": "发布于 3 天前"
-    }
-  },
-  {
-    "job_id": "wd-statestreet:b99bf67a31daca67",
-    "dedup_key": "b99bf67a31daca67",
-    "source_id": "wd-statestreet",
-    "company_name": "道富",
-    "title": "Alternative Ops Fund Accounting, Associate 2",
-    "location": "Hangzhou, China",
-    "org_type": "finance",
-    "industry": "金融",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Associate-2_R-799394",
-    "backup_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Associate-2_R-799379",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "Alternative Ops Fund Accounting, Associate 2",
-    "tags": [
-      "行业:金融",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [
-      "repeat_posting"
-    ],
-    "status": "new",
-    "seen_count": 14,
-    "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "发布于 6 天前"
-    }
-  },
-  {
-    "job_id": "wd-statestreet:32235359bc1903dd",
-    "dedup_key": "32235359bc1903dd",
-    "source_id": "wd-statestreet",
-    "company_name": "道富",
-    "title": "Alternative Ops Fund Accounting, AVP",
-    "location": "Hangzhou, China",
-    "org_type": "finance",
-    "industry": "金融",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--Associate-2_R-799529-1",
-    "backup_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Alternative-Ops-Fund-Accounting--AVP_R-799528",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "Alternative Ops Fund Accounting, AVP",
-    "tags": [
-      "行业:金融",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [
-      "repeat_posting"
-    ],
-    "status": "new",
-    "seen_count": 4,
-    "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "发布于 6 天前"
     }
   },
   {
@@ -12099,49 +12138,12 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
       "needs_ai": true,
       "posted_on": "发布于 6 天前"
-    }
-  },
-  {
-    "job_id": "wd-statestreet:0bf670e720545ba1",
-    "dedup_key": "0bf670e720545ba1",
-    "source_id": "wd-statestreet",
-    "company_name": "道富",
-    "title": "Corporate Actions, Associate 1",
-    "location": "Hangzhou, China / Hangzhou, China",
-    "org_type": "finance",
-    "industry": "金融",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Fund-Accounting--Associate-1_R-799391",
-    "backup_url": "",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "Corporate Actions, Associate 1",
-    "tags": [
-      "行业:金融",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [],
-    "status": "new",
-    "seen_count": 1,
-    "first_seen": "2026-10-22T09:17:22.791649+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "发布于 8 天前"
     }
   },
   {
@@ -12173,7 +12175,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12212,46 +12214,7 @@
     "status": "new",
     "seen_count": 6,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "发布于 8 天前"
-    }
-  },
-  {
-    "job_id": "wd-statestreet:03d1764f653d9472",
-    "dedup_key": "03d1764f653d9472",
-    "source_id": "wd-statestreet",
-    "company_name": "道富",
-    "title": "Fund Administration, Associate 2",
-    "location": "Hangzhou, China",
-    "org_type": "finance",
-    "industry": "金融",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Fund-Administration--Associate-2_R-796546-1",
-    "backup_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Fund-Administration--Associate-2_R-799241-1",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "Fund Administration, Associate 2",
-    "tags": [
-      "行业:金融",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [
-      "repeat_posting"
-    ],
-    "status": "new",
-    "seen_count": 3,
-    "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12288,7 +12251,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12325,7 +12288,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12362,7 +12325,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12401,7 +12364,7 @@
     "status": "new",
     "seen_count": 4,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12438,7 +12401,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12475,7 +12438,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12512,7 +12475,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12551,7 +12514,7 @@
     "status": "new",
     "seen_count": 4,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12588,44 +12551,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
-    "gone": false,
-    "extra": {
-      "platform": "workday",
-      "needs_ai": true,
-      "posted_on": "发布于 9 天前"
-    }
-  },
-  {
-    "job_id": "wd-statestreet:4c16e41b5548af66",
-    "dedup_key": "4c16e41b5548af66",
-    "source_id": "wd-statestreet",
-    "company_name": "道富",
-    "title": "Senior AI Software Engineer, Officer",
-    "location": "Hangzhou, China",
-    "org_type": "finance",
-    "industry": "互联网/软件",
-    "job_type": "unknown",
-    "publish_time": "",
-    "deadline": "",
-    "official_url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hangzhou-China/Senior-AI-Software-Engineer--Officer_R-795619",
-    "backup_url": "",
-    "salary": "",
-    "employment_type": "",
-    "identifier": "",
-    "jd_text": "Senior AI Software Engineer, Officer",
-    "tags": [
-      "行业:互联网/软件",
-      "非设计岗",
-      "仅社招"
-    ],
-    "match_score": 0,
-    "source_confidence": 90,
-    "risk_flags": [],
-    "status": "new",
-    "seen_count": 1,
-    "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12662,7 +12588,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12699,7 +12625,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12736,7 +12662,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12773,7 +12699,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12810,7 +12736,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12847,7 +12773,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12884,7 +12810,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12921,7 +12847,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12958,7 +12884,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -12995,7 +12921,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13032,7 +12958,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13069,7 +12995,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13106,7 +13032,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13143,7 +13069,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13180,7 +13106,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13219,7 +13145,7 @@
     "status": "new",
     "seen_count": 3,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13256,7 +13182,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13293,7 +13219,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13330,7 +13256,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13369,7 +13295,7 @@
     "status": "new",
     "seen_count": 3,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13378,23 +13304,23 @@
     }
   },
   {
-    "job_id": "wd-amat:e282dac9da46576b",
-    "dedup_key": "e282dac9da46576b",
+    "job_id": "wd-amat:38e095a499b118ee",
+    "dedup_key": "38e095a499b118ee",
     "source_id": "wd-amat",
     "company_name": "应用材料",
-    "title": "Global Installation Engineer-Semi-IMP-FY27Q1-NCG",
-    "location": "Wuxi,CHN",
+    "title": "Global Installation Engineer-Semi-CMP-FY27Q1-NCG",
+    "location": "Chengdu,CHN",
     "org_type": "tech",
     "industry": "半导体/电子",
     "job_type": "unknown",
     "publish_time": "",
     "deadline": "",
-    "official_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/WuxiCHN/Global-Installation-Engineer-Semi-IMP_R2631731",
+    "official_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/ChengduCHN/Global-Installation-Engineer-Semi-CMP_R2631687",
     "backup_url": "",
     "salary": "",
     "employment_type": "",
     "identifier": "",
-    "jd_text": "Global Installation Engineer-Semi-IMP-FY27Q1-NCG",
+    "jd_text": "Global Installation Engineer-Semi-CMP-FY27Q1-NCG",
     "tags": [
       "行业:半导体/电子",
       "非设计岗",
@@ -13405,8 +13331,304 @@
     "risk_flags": [],
     "status": "new",
     "seen_count": 1,
-    "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "first_seen": "2026-10-23T06:29:18.423356+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "Posted Today"
+    }
+  },
+  {
+    "job_id": "wd-amat:cd87c73acdaedf9e",
+    "dedup_key": "cd87c73acdaedf9e",
+    "source_id": "wd-amat",
+    "company_name": "应用材料",
+    "title": "TPS Engineer III-Display-Evaporator-Hefei/Chengdu",
+    "location": "Hefei,CHN / Chengdu,CHN",
+    "org_type": "tech",
+    "industry": "半导体/电子",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/HefeiCHN/TPS-Engineer-III-Display_R2517079-1",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "TPS Engineer III-Display-Evaporator-Hefei/Chengdu",
+    "tags": [
+      "行业:半导体/电子",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-23T06:29:18.423356+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "Posted Today"
+    }
+  },
+  {
+    "job_id": "wd-amat:6402913da3441352",
+    "dedup_key": "6402913da3441352",
+    "source_id": "wd-amat",
+    "company_name": "应用材料",
+    "title": "HR Partner",
+    "location": "Shanghai,CHN",
+    "org_type": "tech",
+    "industry": "半导体/电子",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/ShanghaiCHN/HR-Partner_R2619702",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "HR Partner",
+    "tags": [
+      "行业:半导体/电子",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-23T06:29:18.423356+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "Posted Today"
+    }
+  },
+  {
+    "job_id": "wd-amat:8f9977a1a592c7c2",
+    "dedup_key": "8f9977a1a592c7c2",
+    "source_id": "wd-amat",
+    "company_name": "应用材料",
+    "title": "Customer Engineer -IMP",
+    "location": "Shanghai,CHN",
+    "org_type": "tech",
+    "industry": "半导体/电子",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/ShanghaiCHN/Customer-Engineer--IMP_R2630644",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "Customer Engineer -IMP",
+    "tags": [
+      "行业:半导体/电子",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-23T06:29:18.423356+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "Posted Today"
+    }
+  },
+  {
+    "job_id": "wd-amat:63eb7ae2ae96c91a",
+    "dedup_key": "63eb7ae2ae96c91a",
+    "source_id": "wd-amat",
+    "company_name": "应用材料",
+    "title": "Customer Engineer-PPC",
+    "location": "Wuhan,CHN",
+    "org_type": "tech",
+    "industry": "半导体/电子",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/WuhanCHN/Customer-Engineer-PPC_R2630296",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "Customer Engineer-PPC",
+    "tags": [
+      "行业:半导体/电子",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-23T06:29:18.423356+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "Posted Today"
+    }
+  },
+  {
+    "job_id": "wd-amat:6ae0b02226a0d285",
+    "dedup_key": "6ae0b02226a0d285",
+    "source_id": "wd-amat",
+    "company_name": "应用材料",
+    "title": "Manager, Customer Engineer",
+    "location": "Qingdao,CHN",
+    "org_type": "tech",
+    "industry": "半导体/电子",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/QingdaoCHN/Manager--Customer-Engineer_R2630291",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "Manager, Customer Engineer",
+    "tags": [
+      "行业:半导体/电子",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-23T06:29:18.423356+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "Posted Today"
+    }
+  },
+  {
+    "job_id": "wd-amat:e8696e59aca51848",
+    "dedup_key": "e8696e59aca51848",
+    "source_id": "wd-amat",
+    "company_name": "应用材料",
+    "title": "Customer Support Technician - EPI",
+    "location": "Shanghai,CHN",
+    "org_type": "tech",
+    "industry": "半导体/电子",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/ShanghaiCHN/Customer-Support-Technician---EPI_R2630298",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "Customer Support Technician - EPI",
+    "tags": [
+      "行业:半导体/电子",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-23T06:29:18.423356+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "Posted Today"
+    }
+  },
+  {
+    "job_id": "wd-amat:1e42ba2903eabde4",
+    "dedup_key": "1e42ba2903eabde4",
+    "source_id": "wd-amat",
+    "company_name": "应用材料",
+    "title": "Customer Support Technician",
+    "location": "Dalian,CHN",
+    "org_type": "tech",
+    "industry": "半导体/电子",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/DalianCHN/Customer-Support-Technician_R2630731",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "Customer Support Technician",
+    "tags": [
+      "行业:半导体/电子",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-23T06:29:18.423356+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
+    "gone": false,
+    "extra": {
+      "platform": "workday",
+      "needs_ai": true,
+      "posted_on": "Posted Today"
+    }
+  },
+  {
+    "job_id": "wd-amat:2d4368e6119da3cc",
+    "dedup_key": "2d4368e6119da3cc",
+    "source_id": "wd-amat",
+    "company_name": "应用材料",
+    "title": "Customer Engineer-IMP",
+    "location": "Beijing,CHN",
+    "org_type": "tech",
+    "industry": "半导体/电子",
+    "job_type": "unknown",
+    "publish_time": "",
+    "deadline": "",
+    "official_url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/BeijingCHN/Customer-Engineer-IMP_R2621993",
+    "backup_url": "",
+    "salary": "",
+    "employment_type": "",
+    "identifier": "",
+    "jd_text": "Customer Engineer-IMP",
+    "tags": [
+      "行业:半导体/电子",
+      "非设计岗",
+      "仅社招"
+    ],
+    "match_score": 0,
+    "source_confidence": 90,
+    "risk_flags": [],
+    "status": "new",
+    "seen_count": 1,
+    "first_seen": "2026-10-23T06:29:18.423356+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13443,7 +13665,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13482,7 +13704,7 @@
     "status": "new",
     "seen_count": 3,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13519,7 +13741,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13556,7 +13778,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13593,7 +13815,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13630,7 +13852,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13667,7 +13889,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13704,7 +13926,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13741,7 +13963,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13778,7 +14000,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13817,7 +14039,7 @@
     "status": "new",
     "seen_count": 3,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13854,7 +14076,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13891,7 +14113,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13928,7 +14150,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -13965,7 +14187,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14002,7 +14224,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14039,7 +14261,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14076,7 +14298,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14113,7 +14335,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14150,7 +14372,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14187,7 +14409,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14224,7 +14446,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14261,7 +14483,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14298,7 +14520,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:00:31.871953+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14335,7 +14557,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14372,7 +14594,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14409,7 +14631,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14446,7 +14668,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14483,7 +14705,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14520,7 +14742,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14557,7 +14779,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14594,7 +14816,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14631,7 +14853,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14668,7 +14890,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14705,7 +14927,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14742,7 +14964,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14779,7 +15001,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14816,7 +15038,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14853,7 +15075,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14890,7 +15112,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14927,7 +15149,7 @@
     "status": "new",
     "seen_count": 2,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -14964,7 +15186,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15001,7 +15223,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15038,7 +15260,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15075,7 +15297,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15112,7 +15334,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15149,7 +15371,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15186,7 +15408,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15223,7 +15445,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15260,7 +15482,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15297,7 +15519,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15334,7 +15556,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15371,7 +15593,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15408,7 +15630,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15445,7 +15667,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15482,7 +15704,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15519,7 +15741,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15556,7 +15778,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15593,7 +15815,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15630,7 +15852,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15667,7 +15889,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15704,7 +15926,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15741,7 +15963,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15778,7 +16000,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15815,7 +16037,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15852,7 +16074,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15889,7 +16111,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15926,7 +16148,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -15963,7 +16185,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16000,7 +16222,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16037,7 +16259,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16074,7 +16296,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16111,7 +16333,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16148,7 +16370,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16185,7 +16407,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16222,7 +16444,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16259,7 +16481,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16296,7 +16518,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16333,7 +16555,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16370,7 +16592,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16407,7 +16629,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16444,7 +16666,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16481,7 +16703,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16518,7 +16740,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16555,7 +16777,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16592,7 +16814,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16629,7 +16851,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16666,7 +16888,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16703,7 +16925,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16740,7 +16962,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16777,7 +16999,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16814,7 +17036,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16851,7 +17073,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16888,7 +17110,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16925,7 +17147,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16962,7 +17184,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -16999,7 +17221,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -17036,7 +17258,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -17073,7 +17295,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -17110,7 +17332,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -17147,7 +17369,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -17184,7 +17406,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -17221,7 +17443,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -17258,7 +17480,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -17295,7 +17517,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -17332,7 +17554,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -17369,7 +17591,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -17406,7 +17628,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -17443,7 +17665,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",
@@ -17480,7 +17702,7 @@
     "status": "new",
     "seen_count": 1,
     "first_seen": "2026-10-22T09:14:04.339959+00:00",
-    "last_seen": "2026-10-22T09:17:22.791649+00:00",
+    "last_seen": "2026-10-23T06:29:18.423356+00:00",
     "gone": false,
     "extra": {
       "platform": "workday",

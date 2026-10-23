@@ -10,14 +10,15 @@
 **UI Designer 交互视觉设计师 · 全职 · 职位号 4961960**
 2026-08-14 发布（70 天前）
 ⚠ 已挂 70 天，投递前建议先确认是否仍在招
+一句话：负责PC、移动端、Web视觉风格和UI设计，5年以上相关经验
 做什么：
-- 负责 PC 端、移动端、Web 整体视觉风格和 UI 设计，定义并管理设计资源；
-- 负责制定视觉与交互的相关设计方法，帮助创造良好体验的产品与服务；
-- 参与产品和业务的规划，并提供专业意见；
+- 设计PC、移动端、Web视觉风格和UI
+- 制定视觉与交互设计方法
+- 参与产品和业务规划
 要求：
-- 本科及以上学历，视觉传达、艺术设计、美术学等相关专业毕业；
-- 5 年以上移动端、PC 端产品设计经验，熟悉视觉设计相关方法，熟练使用设计软件，具备 UI 动效设计能力；
-- 有完整的项目案例，能够独立中大型项目的UI设计，搭建组件库，制定设计规范…
+- 本科及以上学历，视觉传达等相关专业
+- 5年以上产品设计经验
+- 熟悉设计软件和UI动效设计
 硬条件：5 年以上 · 本科 · 组件库
 [查看岗位](https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Zhejiang---Hangzhou/UI-Designer-_4961960)
 
@@ -25,46 +26,53 @@
 **Senior Product Designer · 全职 · 资深 · 职位号 R075434**
 2025-04-22 发布（549 天前）
 ⚠ 官网标注发布已 549 天，可能是长期滚动招聘，投递前建议先确认
+一句话：设计开发应用集成解决方案，优化现有集成。
 做什么：
-- Design and develop integration solutions for applications, ensuring they align with business and technical…
-- Conduct in-depth analysis to understand the underlying problems associated with integration challenges and…
+- 设计开发应用集成解决方案
+- 分析问题并提出解决方案
+- 与跨职能团队合作
 要求：
-- Bachelor’s degree or higher from an accredited university in a Computer Science, Interaction Design…
-- 5+ years of experience in digital product development such as mobile/desktop apps, web…
+- 计算机科学、交互设计或视觉传达设计专业本科及以上学历
+- 5年以上数字产品开发经验
+- 流利的中英文沟通能力
 硬条件：5 年以上 · 本科 · 中英文流利 · Figma
-（英文原文）
 [查看岗位](https://ringcentral.wd1.myworkdayjobs.com/en-US/RingCentral_Careers/job/Xiamen-China/Senior-Product-Designer_R075434)
 
 **▌辉瑞 · 杭州 ｜ 产品设计**
 **CreateSmart Creative Design Lead · 全职 · 负责人 · 职位号 4960278**
 2026-07-10 发布（105 天前）
 ⚠ 已挂 105 天，投递前建议先确认是否仍在招
+一句话：领导创意设计团队，负责高质量视觉传达
 做什么：
-- Creative Design Leadership: Lead high-complexity creative design projects, including key visuals, banners…
-- Design Team Leadership: Lead, manage, and coach the design team. Allocate design resources effectively…
+- 领导创意设计项目，确保视觉质量与品牌一致性
+- 管理设计团队，优化工作流程与效率
+- 跨部门协作，确保创意输出符合业务目标
 要求：
-- Bachelor’s degree or above in Visual Communication Design, Graphic Design, Digital Media Design…
-- Minimum 8-10 years of relevant design experience, preferably gained from leading advertising agencies…
+- 视觉传达设计相关专业本科及以上学历
+- 8-10年相关设计经验，有领导团队经验
+- 熟悉医疗行业，有AI设计应用能力
 硬条件：8-10 年 · 本科 · Design System
-（英文原文）
 [查看岗位](https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/China---Zhejiang---Hangzhou/CreateSmart-Creative-Design-Lead_4960278)
 
 **▌3M · 上海 ｜ 产品设计**
 **CHK CBG Design Manager · 全职 · 经理 · 职位号 R01165164**
 2026-09-17 发布（36 天前）
 ⚠ 工作地为「上海」，不在杭州
+一句话：领导设计团队，制定品牌设计策略，提升品牌价值。
 做什么：
-- Lead the translation of global brand design strategy, including visual brand identity, brand architecture…
-- Establish and oversee brand governance, standards, and toolkits; ensure adherence across internal teams and…
+- 制定品牌设计策略，确保创意卓越。
+- 整合消费者洞察，推动品牌增长。
+- 与业务团队合作，实现设计战略与增长目标一致。
 要求：
-- Bachelor’s degree (completed and verified prior to start) AND at least seven (7) years of professional…
-- Bachelor’s degree or higher in Design, Visual Communication, Brand Strategy, Experience Design…
+- 7年以上设计经验，熟悉多触点设计。
+- 本科及以上学历，设计或相关领域。
+- 具备品牌设计系统建立和管理经验。
 硬条件：10-15 年 · 本科 · Design System
-（英文原文）
 [查看岗位](https://3m.wd1.myworkdayjobs.com/en-US/Search/job/CN-Shanghai/CHK-CBG-Design-Manager_R01165164)
 
 ## 已排除
 - 道富 Platform Engineering - Dev/UX (Production Website), Off —— 正文写的是软件工程岗（提到 SDLC / 后端服务 / 应用支持），无设计职责描述
 
 ---
-数据来源：各公司官网 Workday 直连 · 20 个信源 14 个正常 · 抓取于 10/23 11:41 · 由 job-radar 自动生成
+数据来源：各公司官网 Workday 直连 · 20 个信源 14 个正常 · 抓取于 10/23 06:30 · 由 job-radar 自动生成
+信息台：https://<chen26111>.github.io/job-radar/
