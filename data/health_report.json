@@ -1,0 +1,242 @@
+{
+  "generated_at": "2026-10-22T09:17:22.791649+00:00",
+  "sources_total": 5,
+  "sources_catalog_total": 20,
+  "preserve_unselected": true,
+  "jobs_raw": 451,
+  "snapshot_after_dedup": 319,
+  "duplicates_removed": 132,
+  "store_total": 475,
+  "new_this_run": 26,
+  "gone_total": 36,
+  "archived_total": 37,
+  "active_total": 475,
+  "unhealthy": [
+    {
+      "source_id": "wd-siemens",
+      "adapter": "workday",
+      "status": "blocked",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-bosch",
+      "adapter": "workday",
+      "status": "blocked",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-schneider",
+      "adapter": "workday",
+      "status": "blocked",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-philips",
+      "adapter": "workday",
+      "status": "blocked",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-roche",
+      "adapter": "workday",
+      "status": "blocked",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-jnj",
+      "adapter": "workday",
+      "status": "blocked",
+      "not_run": true
+    }
+  ],
+  "alerts": [],
+  "sources": [
+    {
+      "source_id": "wd-pfizer",
+      "adapter": "workday",
+      "consecutive_failures": 0,
+      "status": "active",
+      "last_success_at": "2026-10-22T09:18:22.984606+00:00",
+      "last_error": "",
+      "last_count": 193,
+      "peak_count": 205,
+      "alert": ""
+    },
+    {
+      "source_id": "wd-statestreet",
+      "adapter": "workday",
+      "consecutive_failures": 0,
+      "status": "active",
+      "last_success_at": "2026-10-22T09:18:36.872235+00:00",
+      "last_error": "",
+      "last_count": 125,
+      "peak_count": 125,
+      "alert": ""
+    },
+    {
+      "source_id": "wd-ringcentral",
+      "adapter": "workday",
+      "consecutive_failures": 0,
+      "status": "active",
+      "last_success_at": "2026-10-22T09:18:54.648737+00:00",
+      "last_error": "",
+      "last_count": 1,
+      "peak_count": 1,
+      "alert": ""
+    },
+    {
+      "source_id": "wd-zoom",
+      "adapter": "workday",
+      "consecutive_failures": 0,
+      "status": "active",
+      "last_success_at": "2026-10-22T09:19:29.037918+00:00",
+      "last_error": "",
+      "last_count": 0,
+      "peak_count": 0,
+      "alert": ""
+    },
+    {
+      "source_id": "wd-amat",
+      "adapter": "workday",
+      "consecutive_failures": 0,
+      "status": "active",
+      "last_success_at": "2026-10-22T09:20:06.733630+00:00",
+      "last_error": "",
+      "last_count": 132,
+      "peak_count": 133,
+      "alert": ""
+    },
+    {
+      "source_id": "wd-danaher",
+      "adapter": "workday",
+      "status": "active",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-medtronic",
+      "adapter": "workday",
+      "status": "active",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-intel",
+      "adapter": "workday",
+      "consecutive_failures": 0,
+      "status": "active",
+      "last_success_at": "2026-10-22T09:02:00.928349+00:00",
+      "last_error": "",
+      "last_count": 0,
+      "peak_count": 0,
+      "alert": "",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-nxp",
+      "adapter": "workday",
+      "consecutive_failures": 0,
+      "status": "active",
+      "last_success_at": "2026-10-22T09:02:07.724148+00:00",
+      "last_error": "",
+      "last_count": 40,
+      "peak_count": 40,
+      "alert": "",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-abbott",
+      "adapter": "workday",
+      "consecutive_failures": 0,
+      "status": "active",
+      "last_success_at": "2026-10-22T09:02:16.697076+00:00",
+      "last_error": "",
+      "last_count": 40,
+      "peak_count": 40,
+      "alert": "",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-3m",
+      "adapter": "workday",
+      "consecutive_failures": 0,
+      "status": "active",
+      "last_success_at": "2026-10-22T09:02:24.997783+00:00",
+      "last_error": "",
+      "last_count": 33,
+      "peak_count": 33,
+      "alert": "",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-kla",
+      "adapter": "workday",
+      "consecutive_failures": 0,
+      "status": "active",
+      "last_success_at": "2026-10-22T09:02:29.498334+00:00",
+      "last_error": "",
+      "last_count": 40,
+      "peak_count": 40,
+      "alert": "",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-astrazeneca",
+      "adapter": "workday",
+      "consecutive_failures": 0,
+      "status": "active",
+      "last_success_at": "2026-10-22T09:02:36.467419+00:00",
+      "last_error": "",
+      "last_count": 20,
+      "peak_count": 20,
+      "alert": "",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-nvidia",
+      "adapter": "workday",
+      "consecutive_failures": 0,
+      "status": "active",
+      "last_success_at": "2026-10-22T09:02:45.710156+00:00",
+      "last_error": "",
+      "last_count": 1,
+      "peak_count": 1,
+      "alert": "",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-siemens",
+      "adapter": "workday",
+      "status": "blocked",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-bosch",
+      "adapter": "workday",
+      "status": "blocked",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-schneider",
+      "adapter": "workday",
+      "status": "blocked",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-philips",
+      "adapter": "workday",
+      "status": "blocked",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-roche",
+      "adapter": "workday",
+      "status": "blocked",
+      "not_run": true
+    },
+    {
+      "source_id": "wd-jnj",
+      "adapter": "workday",
+      "status": "blocked",
+      "not_run": true
+    }
+  ]
+}

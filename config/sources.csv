@@ -1,0 +1,55 @@
+source_id,company_name,org_type,source_type,adapter,endpoint,priority,fetch_method,requires_login,city_scope,poll_interval_minutes,status,notes
+# ============================================================================
+# 信源库（杭州外企 UX/交互/产品设计 定向版）
+# status 含义：
+#   active     正常抓取
+#   unstable   近期有失败，仍尝试（健康度闭环自动标记）
+#   blocked    已知反爬/登录墙/SPA，暂跳过
+#   deprecated 已弃用，永久跳过
+#
+# 本文件只保留"外企官网 ATS（公开 JSON 接口）"这一层：
+#   - 不需要登录、无强反爬、每站 1~2 秒一次请求，合规
+#   - 加新公司：python3 scripts/probe.py <careers URL>
+#   - 先摸底：python3 scripts/search_hangzhou.py
+#
+# ⚠ 已验证结论（2026-10-22 实测）：
+#   杭州外企设计岗非常稀疏。10 家租户全量扫描仅 3 条命中（State Street 1 + 辉瑞 2）。
+#   因此本配置定位是"不漏掉新增"，而非"每天都有货"——
+#   播报里必须带「近14天热招」存量兜底，否则多数天会是空的。
+# ============================================================================
+
+# ===== 核心源：已验证有杭州设计岗，必须每天扫 =====
+wd-pfizer,辉瑞,tech,ats,workday,pfizer.wd1.myworkdayjobs.com|pfizer|PfizerCareers,1,api,no,杭州,720,active,实测杭州有 UI Designer 交互视觉设计师 / CreateSmart Creative Design Lead
+wd-statestreet,道富,finance,ats,workday,statestreet.wd1.myworkdayjobs.com|statestreet|Global,1,api,no,杭州·上海,720,active,实测杭州有 Platform Engineering Dev/UX；另有 Digital Experience UX Designer VP
+wd-ringcentral,RingCentral,tech,ats,workday,ringcentral.wd1.myworkdayjobs.com|ringcentral|RingCentral_Careers,1,api,no,杭州,720,active,实测 Senior Product Designer（详情 location=Xiamen + additionalLocations=[Hangzhou]）
+wd-zoom,Zoom,tech,ats,workday,zoom.wd5.myworkdayjobs.com|zoom|Zoom,2,api,no,杭州·上海,720,active,杭州有研发中心；接口通 total=80（近期杭州 0 岗，留作增量）
+
+# ===== 次优先：接口通、杭州有岗位但暂未命中设计岗（留着兜增量）=====
+wd-danaher,丹纳赫,tech,ats,workday,danaher.wd1.myworkdayjobs.com|danaher|DanaherJobs,3,api,no,上海·苏州·桐庐,1440,active,接口通 total=1459；杭州周边仅桐庐 QA 岗
+wd-medtronic,美敦力,tech,ats,workday,medtronic.wd1.myworkdayjobs.com|medtronic|MedtronicCareers,3,api,no,杭州·上海·成都,1440,active,接口通 total=1081；杭州仅 Inside Sales
+wd-amat,应用材料,tech,ats,workday,amat.wd1.myworkdayjobs.com|amat|External,2,api,no,杭州·上海·西安,720,active,杭州 1-2 岗（非设计）
+wd-intel,英特尔,tech,ats,workday,intel.wd1.myworkdayjobs.com|intel|External,3,api,no,上海·成都·大连,1440,active,接口通；杭州暂无岗
+wd-nxp,恩智浦,tech,ats,workday,nxp.wd3.myworkdayjobs.com|nxp|careers,3,api,no,上海·北京·天津,1440,active,接口通；杭州暂无岗
+wd-abbott,雅培,tech,ats,workday,abbott.wd5.myworkdayjobs.com|abbott|abbottcareers,3,api,no,上海·北京,1440,active,接口通；杭州暂无岗
+wd-3m,3M,tech,ats,workday,3m.wd1.myworkdayjobs.com|3m|Search,3,api,no,上海,1440,active,接口通；杭州暂无岗
+wd-kla,科磊,tech,ats,workday,kla.wd1.myworkdayjobs.com|kla|Search,3,api,no,上海·北京,1440,active,接口通；杭州暂无岗
+wd-astrazeneca,阿斯利康,tech,ats,workday,astrazeneca.wd3.myworkdayjobs.com|astrazeneca|Careers,3,api,no,上海·北京,1440,active,接口通；杭州仅 3 岗且非设计
+wd-nvidia,英伟达,tech,ats,workday,nvidia.wd5.myworkdayjobs.com|nvidia|NVIDIAExternalCareerSite,4,api,no,上海·北京·深圳,1440,active,接口通；杭州 0 岗，仅作储备
+
+# ===== 待攻：租户/site 名不对，probe 通过后把 status 改成 active =====
+# 加新外企流程：① 打开官网 careers 页复制 URL；② python3 scripts/probe.py "<URL>"；
+#              ③ 命中数 > 0 → 把输出的 CSV 行粘到下面，status 改 active
+#
+# ⚠ 2026-10-22 实测：下列 6 家**连租户名都不对**（试遍 7 种 site 名变体全部失败），
+#   即 host 里的 tenant 段本身错了，不是 site 名的问题。需要先从官网 careers URL
+#   解析出真实 tenant，成本较高，暂不投入。如需补，优先博世（杭州是全球电动工具研发中心）。
+wd-siemens,西门子,tech,ats,workday,siemens.wd3.myworkdayjobs.com|siemens|Siemens_Careers,3,api,no,杭州·上海,1440,blocked,租户名 siemens 不可用（7 种 site 全失败）；需从官网 URL 反查 tenant
+wd-bosch,博世,tech,ats,workday,bosch.wd3.myworkdayjobs.com|bosch|Bosch_External,2,api,no,杭州·上海,1440,blocked,租户名 bosch 不可用（7 种 site 全失败）；博世电动杭州=全球电动工具研发中心，最值得攻
+wd-schneider,施耐德,tech,ats,workday,schneider.wd3.myworkdayjobs.com|schneider|SchneiderElectric,3,api,no,杭州·上海,1440,blocked,租户名 schneider 不可用（6 种 site 全失败）
+wd-philips,飞利浦,tech,ats,workday,philips.wd3.myworkdayjobs.com|philips|Philips,3,api,no,杭州·上海,1440,blocked,租户名 philips 不可用（5 种 site 全失败）
+wd-roche,罗氏,tech,ats,workday,roche.wd3.myworkdayjobs.com|roche|Roche,3,api,no,上海,1440,blocked,租户名 roche 不可用（4 种 site 全失败）
+wd-jnj,强生,tech,ats,workday,jnj.wd5.myworkdayjobs.com|jnj|JJ,3,api,no,上海·北京,1440,blocked,租户名 jnj 不可用（6 种 site 全失败）
+
+# ===== 平台侧聚合（JobSpy 通道，见 scripts/jobspy_source.py）=====
+# 不走 sources.csv，由 jobspy_source.py 直接写入 data/
+# 覆盖 LinkedIn / Indeed / Glassdoor / Google Jobs 上的杭州设计岗

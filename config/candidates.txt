@@ -1,0 +1,33 @@
+# 杭州/长三角外企候选池 —— 一行一个 careers URL 或 workday endpoint
+# 以 # 开头的行为注释。跑：python3 scripts/probe.py --batch config/candidates.txt
+# probe.py 会自动判定 ATS 类型并统计"杭州 + 设计/产品岗"命中数。
+
+# ---- 已在 job-radar 里验证过的外企（抄过来先测杭州命中）----
+3m.wd1.myworkdayjobs.com|3m|Search
+intel.wd1.myworkdayjobs.com|intel|External
+nxp.wd3.myworkdayjobs.com|nxp|careers
+abbott.wd5.myworkdayjobs.com|abbott|abbottcareers
+amat.wd1.myworkdayjobs.com|amat|External
+kla.wd1.myworkdayjobs.com|kla|Search
+astrazeneca.wd3.myworkdayjobs.com|astrazeneca|Careers
+pfizer.wd1.myworkdayjobs.com|pfizer|PfizerCareers
+
+# ---- 金融/银行（杭州有技术中心）----
+statestreet.wd1.myworkdayjobs.com|statestreet|Global
+
+# ---- 工业/汽车（杭州及周边 office 多）----
+siemens.wd3.myworkdayjobs.com|siemens|Siemens_Careers
+bosch.wd3.myworkdayjobs.com|bosch|Bosch_External
+schneider.wd3.myworkdayjobs.com|schneider|SchneiderElectric
+
+# ---- 医药/快消 ----
+roche.wd3.myworkdayjobs.com|roche|Roche
+jnj.wd5.myworkdayjobs.com|jnj|JJ
+philips.wd3.myworkdayjobs.com|philips|Philips
+nielsen.wd3.myworkdayjobs.com|nielsen|Nielsen
+
+# ---- 互联网/咨询（部分用 Greenhouse/Lever，用 URL 更快）----
+https://boards.greenhouse.io/thoughtworks
+https://jobs.lever.co/thoughtworks
+https://boards.greenhouse.io/canonical
+https://jobs.ashbyhq.com/notion

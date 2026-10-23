@@ -1,0 +1,110 @@
+{
+  "wd-pfizer": {
+    "consecutive_failures": 0,
+    "status": "active",
+    "last_success_at": "2026-10-22T09:18:22.984606+00:00",
+    "last_error": "",
+    "last_count": 193,
+    "peak_count": 205,
+    "alert": ""
+  },
+  "wd-statestreet": {
+    "consecutive_failures": 0,
+    "status": "active",
+    "last_success_at": "2026-10-22T09:18:36.872235+00:00",
+    "last_error": "",
+    "last_count": 125,
+    "peak_count": 125,
+    "alert": ""
+  },
+  "wd-ringcentral": {
+    "consecutive_failures": 0,
+    "status": "active",
+    "last_success_at": "2026-10-22T09:18:54.648737+00:00",
+    "last_error": "",
+    "last_count": 1,
+    "peak_count": 1,
+    "alert": ""
+  },
+  "wd-amat": {
+    "consecutive_failures": 0,
+    "status": "active",
+    "last_success_at": "2026-10-22T09:20:06.733630+00:00",
+    "last_error": "",
+    "last_count": 132,
+    "peak_count": 133,
+    "alert": ""
+  },
+  "wd-intel": {
+    "consecutive_failures": 0,
+    "status": "active",
+    "last_success_at": "2026-10-22T09:02:00.928349+00:00",
+    "last_error": "",
+    "last_count": 0,
+    "peak_count": 0,
+    "alert": ""
+  },
+  "wd-nxp": {
+    "consecutive_failures": 0,
+    "status": "active",
+    "last_success_at": "2026-10-22T09:02:07.724148+00:00",
+    "last_error": "",
+    "last_count": 40,
+    "peak_count": 40,
+    "alert": ""
+  },
+  "wd-abbott": {
+    "consecutive_failures": 0,
+    "status": "active",
+    "last_success_at": "2026-10-22T09:02:16.697076+00:00",
+    "last_error": "",
+    "last_count": 40,
+    "peak_count": 40,
+    "alert": ""
+  },
+  "wd-3m": {
+    "consecutive_failures": 0,
+    "status": "active",
+    "last_success_at": "2026-10-22T09:02:24.997783+00:00",
+    "last_error": "",
+    "last_count": 33,
+    "peak_count": 33,
+    "alert": ""
+  },
+  "wd-kla": {
+    "consecutive_failures": 0,
+    "status": "active",
+    "last_success_at": "2026-10-22T09:02:29.498334+00:00",
+    "last_error": "",
+    "last_count": 40,
+    "peak_count": 40,
+    "alert": ""
+  },
+  "wd-astrazeneca": {
+    "consecutive_failures": 0,
+    "status": "active",
+    "last_success_at": "2026-10-22T09:02:36.467419+00:00",
+    "last_error": "",
+    "last_count": 20,
+    "peak_count": 20,
+    "alert": ""
+  },
+  "wd-nvidia": {
+    "consecutive_failures": 0,
+    "status": "active",
+    "last_success_at": "2026-10-22T09:02:45.710156+00:00",
+    "last_error": "",
+    "last_count": 1,
+    "peak_count": 1,
+    "alert": ""
+  },
+  "wd-zoom": {
+    "consecutive_failures": 0,
+    "status": "active",
+    "last_success_at": "2026-10-22T09:19:29.037918+00:00",
+    "last_error": "",
+    "last_count": 0,
+    "peak_count": 0,
+    "alert": ""
+  }
+}

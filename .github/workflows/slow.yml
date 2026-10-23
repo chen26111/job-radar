@@ -1,0 +1,60 @@
+# 慢源补扫：牛客、实习僧、SPA 高校、飞书招聘等浏览器/社区源。
+#
+# ⚠ 本仓库已定向为「杭州外企 UX/交互/产品设计」：
+#   config/sources.csv 里已经没有校招/高校/实习僧/牛客等源，
+#   所以这个 slow 任务没有可抓的信源，每天只会空跑 30 分钟。
+#   保留文件仅为将来若要接社区源时方便恢复——把下面的 schedule 注释取消即可。
+name: job-radar-slow
+
+on:
+  # schedule:
+  #   - cron: "47 9 * * 3,0"
+  #     timezone: "Asia/Shanghai"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  slow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --quiet -r requirements.txt
+          python3 -m playwright install --with-deps chromium
+
+      - name: Run slow sync
+        run: python3 scripts/sync_plan.py slow
+
+      - name: Build notify preview
+        env:
+          WORKBENCH_URL: https://jasmine-liu-min.github.io/job-radar/
+        run: python3 scripts/notify_preview.py
+
+      - name: Send new-only notify
+        env:
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          WECHAT_WEBHOOK_URL: ${{ secrets.WECHAT_WEBHOOK_URL }}
+          WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
+          WORKBENCH_URL: https://jasmine-liu-min.github.io/job-radar/
+        run: python3 scripts/send_notify.py
+
+      - name: Commit data
+        run: |
+          git config user.name  "job-radar-bot"
+          git config user.email "job-radar-bot@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "无新增/变更岗位，跳过 commit"
+          else
+            git commit -m "chore(data): slow sync jobs $(date -u +%F)"
+            git push
+          fi

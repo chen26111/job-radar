@@ -1,0 +1,101 @@
+# 每日同步杭州外企设计岗（GitHub Actions + 静态数据，零服务器零运维）。
+# 每次跑 sync 做【增量累积】（新增追加、消失标 gone、保留用户状态），
+# 再导出 jobs.html，把 data/ commit 回仓库；前端/浏览纯静态读取。
+#
+# 时间：每天北京时间 08:30。
+# GitHub 从 2026-03 起支持 schedule 的 timezone 字段（官方 changelog）。
+# ⚠ 一旦指定了 timezone，cron 就按**本地时间**解释，不要再手动换算成 UTC：
+#     timezone: "Asia/Shanghai" + cron "30 8 * * *"  = 北京 08:30 ✅
+#     timezone: "Asia/Shanghai" + cron "30 0 * * *"  = 北京 00:30 ❌
+#   （旧写法是靠 UTC 换算，加了 timezone 后必须改成 8 点，否则会提前 8 小时跑）
+#
+# 必配 Secrets（Settings → Secrets and variables → Actions）：
+#   FEISHU_WEBHOOK_URL   飞书群机器人 webhook（主通道）
+#   PUSHPLUS_TOKEN       pushplus token（推个人微信，可选）
+#   FEISHU_SECRET        飞书机器人开了"签名校验"才需要（可选）
+# 可选 Secrets（配了就自动启用，不配跑规则版）：
+#   LLM_API_KEY          OpenAI 兼容接口的 key，用于把英文 JD 压成中文要点
+#   LLM_BASE_URL         自建/中转网关地址，默认 https://api.openai.com/v1
+#   LLM_MODEL            模型名，默认 gpt-4o-mini
+# 可选 Variables：
+#   WORKBENCH_URL        你自己的 GitHub Pages 地址，例如 https://<you>.github.io/job-radar/
+name: job-radar-sync
+
+on:
+  schedule:
+    - cron: "30 8 * * *"
+      timezone: "Asia/Shanghai"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run daily fast sync
+        run: python3 scripts/sync_plan.py fast
+
+      # 回查达标岗位的详情接口：拿 JD 正文、真实发布日期、职位号
+      # 失败不阻塞播报——没有 JD 就退化成"只有标题 + 官网链接"，如实说明
+      - name: Enrich JD (detail API)
+        continue-on-error: true
+        run: python3 scripts/enrich_jd.py --min-match 55 --limit 40
+
+      # 判链接生死：Workday 走详情接口（活岗 200 / 死岗 404），其他走页面启发式
+      - name: Verify job links
+        continue-on-error: true
+        run: python3 scripts/verify_links.py --min-match 55 --limit 40
+
+      - name: Build notify preview
+        env:
+          WORKBENCH_URL: ${{ vars.WORKBENCH_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+        run: python3 scripts/notify_preview.py
+
+      - name: Send notify (feishu / pushplus / wecom)
+        env:
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+          PUSHPLUS_TOPIC: ${{ secrets.PUSHPLUS_TOPIC }}
+          WECHAT_WEBHOOK_URL: ${{ secrets.WECHAT_WEBHOOK_URL }}
+          WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
+          WORKBENCH_URL: ${{ vars.WORKBENCH_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+        # 推送失败不让整个任务红：数据已经抓到了，下次会补推
+        continue-on-error: true
+        run: python3 scripts/send_notify.py
+
+      - name: Upload daily report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-report
+          path: data/reports/*.md
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Commit data
+        run: |
+          git config user.name  "job-radar-bot"
+          git config user.email "job-radar-bot@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "无新增/变更岗位，跳过 commit"
+          else
+            git commit -m "chore(data): sync jobs $(date -u +%F)"
+            git push
+          fi
