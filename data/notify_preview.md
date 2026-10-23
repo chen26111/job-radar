@@ -74,5 +74,5 @@
 - 道富 Platform Engineering - Dev/UX (Production Website), Off —— 正文写的是软件工程岗（提到 SDLC / 后端服务 / 应用支持），无设计职责描述
 
 ---
-数据来源：各公司官网 Workday 直连 · 20 个信源 14 个正常 · 抓取于 10/23 06:30 · 由 job-radar 自动生成
-信息台：https://<chen26111>.github.io/job-radar/
+数据来源：各公司官网 Workday 直连 · 20 个信源 14 个正常 · 抓取于 10/23 06:34 · 由 job-radar 自动生成
+信息台：https://chen26111.github.io/job-radar/

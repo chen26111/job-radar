@@ -2,7 +2,7 @@
   "wd-pfizer": {
     "consecutive_failures": 0,
     "status": "active",
-    "last_success_at": "2026-10-23T06:29:37.491507+00:00",
+    "last_success_at": "2026-10-23T06:33:53.021024+00:00",
     "last_error": "",
     "last_count": 188,
     "peak_count": 205,
@@ -11,7 +11,7 @@
   "wd-statestreet": {
     "consecutive_failures": 0,
     "status": "active",
-    "last_success_at": "2026-10-23T06:29:42.517879+00:00",
+    "last_success_at": "2026-10-23T06:33:58.225776+00:00",
     "last_error": "",
     "last_count": 139,
     "peak_count": 139,
@@ -20,7 +20,7 @@
   "wd-ringcentral": {
     "consecutive_failures": 0,
     "status": "active",
-    "last_success_at": "2026-10-23T06:29:46.701679+00:00",
+    "last_success_at": "2026-10-23T06:34:03.252191+00:00",
     "last_error": "",
     "last_count": 1,
     "peak_count": 1,
@@ -29,10 +29,10 @@
   "wd-amat": {
     "consecutive_failures": 0,
     "status": "active",
-    "last_success_at": "2026-10-23T06:30:10.364588+00:00",
+    "last_success_at": "2026-10-23T06:34:27.989659+00:00",
     "last_error": "",
-    "last_count": 140,
-    "peak_count": 140,
+    "last_count": 141,
+    "peak_count": 141,
     "alert": ""
   },
   "wd-intel": {
@@ -101,7 +101,7 @@
   "wd-zoom": {
     "consecutive_failures": 0,
     "status": "active",
-    "last_success_at": "2026-10-23T06:29:57.365228+00:00",
+    "last_success_at": "2026-10-23T06:34:13.810108+00:00",
     "last_error": "",
     "last_count": 0,
     "peak_count": 0,

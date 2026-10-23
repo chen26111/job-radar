@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "pushed_keys": {
+    "2d48e4fdb80e60a3": {
+      "pushed_at": "2026-10-23T06:34:31.258980+00:00",
+      "first_seen": "2026-10-22T09:14:04.339959+00:00",
+      "company": "辉瑞",
+      "title": "UI Designer 交互视觉设计师",
+      "source_id": "wd-pfizer"
+    },
+    "3e3701e39ae8c5d4": {
+      "pushed_at": "2026-10-23T06:34:31.258980+00:00",
+      "first_seen": "2026-10-22T09:17:22.791649+00:00",
+      "company": "RingCentral",
+      "title": "Senior Product Designer",
+      "source_id": "wd-ringcentral"
+    },
+    "a39aaddac070fe95": {
+      "pushed_at": "2026-10-23T06:34:31.258980+00:00",
+      "first_seen": "2026-10-22T09:14:04.339959+00:00",
+      "company": "辉瑞",
+      "title": "CreateSmart Creative Design Lead",
+      "source_id": "wd-pfizer"
+    },
+    "d52c58d8654103b3": {
+      "pushed_at": "2026-10-23T06:34:31.258980+00:00",
+      "first_seen": "2026-10-22T09:00:31.871953+00:00",
+      "company": "3M",
+      "title": "CHK CBG Design Manager",
+      "source_id": "wd-3m"
+    }
+  },
+  "last_marked_at": "2026-10-23T06:34:31.258980+00:00",
+  "last_marked_count": 4
+}
