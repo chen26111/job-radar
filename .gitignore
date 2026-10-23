@@ -20,3 +20,6 @@ scratch/
 # data/ 由 GitHub Actions 生成并 commit；source_state/notify_state 属于运行状态，可保留。
 
 .ssh/
+
+# 本地推送凭据，绝不入库
+token.txt
