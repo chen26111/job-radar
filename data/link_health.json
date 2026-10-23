@@ -45,7 +45,358 @@
       "fails": 0,
       "checked_at": "2026-10-23T02:02:28.962569+00:00",
       "last_error": ""
+    },
+    "7478ce47f393cedb": {
+      "url": "https://hr.163.com/job-detail.html?positionId=76963",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:27.901751+00:00",
+      "last_error": ""
+    },
+    "d61999c1f84ae5ae": {
+      "url": "https://hr.163.com/job-detail.html?positionId=76964",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:29.119049+00:00",
+      "last_error": ""
+    },
+    "c2ddd4766497e651": {
+      "url": "https://hr.163.com/job-detail.html?positionId=67381",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:30.336725+00:00",
+      "last_error": ""
+    },
+    "059e106ec390aa76": {
+      "url": "https://hr.163.com/job-detail.html?positionId=79047",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:31.559773+00:00",
+      "last_error": ""
+    },
+    "9adbd0f7fc10a2ea": {
+      "url": "https://jobs.bytedance.com/experienced/position/7657410692634577205/detail",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:35.501216+00:00",
+      "last_error": ""
+    },
+    "cb58cb420e4ccf8c": {
+      "url": "https://hr.163.com/job-detail.html?positionId=65323",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:36.716570+00:00",
+      "last_error": ""
+    },
+    "cb80dea1eb272ad5": {
+      "url": "https://hr.163.com/job-detail.html?positionId=72241",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:37.919856+00:00",
+      "last_error": ""
+    },
+    "ff348022d8fa07fd": {
+      "url": "https://hr.163.com/job-detail.html?positionId=44315",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:39.116062+00:00",
+      "last_error": ""
+    },
+    "70651f6d4c2cbe53": {
+      "url": "https://hr.163.com/job-detail.html?positionId=77452",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:40.313135+00:00",
+      "last_error": ""
+    },
+    "409e2ef3b58e2feb": {
+      "url": "https://hr.163.com/job-detail.html?positionId=77841",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:41.515423+00:00",
+      "last_error": ""
+    },
+    "3302b38d429110f7": {
+      "url": "https://hr.163.com/job-detail.html?positionId=76594",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:42.744068+00:00",
+      "last_error": ""
+    },
+    "158b1dded3ba9bff": {
+      "url": "https://hr.163.com/job-detail.html?positionId=75939",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:43.968607+00:00",
+      "last_error": ""
+    },
+    "bfdefa90e37b6e87": {
+      "url": "https://hr.163.com/job-detail.html?positionId=74947",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:45.164458+00:00",
+      "last_error": ""
+    },
+    "8ef1224148f4b0f9": {
+      "url": "https://jobs.bytedance.com/experienced/position/7534583921540286738/detail",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:49.492000+00:00",
+      "last_error": ""
+    },
+    "c6b24d11462366a3": {
+      "url": "https://hr.163.com/job-detail.html?positionId=79274",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:50.695521+00:00",
+      "last_error": ""
+    },
+    "3d16b5dcdce73414": {
+      "url": "https://hr.163.com/job-detail.html?positionId=78093",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:51.899454+00:00",
+      "last_error": ""
+    },
+    "af019854b5144f09": {
+      "url": "https://hr.163.com/job-detail.html?positionId=77017",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:53.098557+00:00",
+      "last_error": ""
+    },
+    "23804c7b073228cc": {
+      "url": "https://hr.163.com/job-detail.html?positionId=78016",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:54.293533+00:00",
+      "last_error": ""
+    },
+    "0f0aa640e4d69d03": {
+      "url": "https://hr.163.com/job-detail.html?positionId=71005",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:55.509932+00:00",
+      "last_error": ""
+    },
+    "fafd52b95e55a087": {
+      "url": "https://hr.163.com/job-detail.html?positionId=78160",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:47:56.734261+00:00",
+      "last_error": ""
+    },
+    "ade231f769df86af": {
+      "url": "https://jobs.bytedance.com/experienced/position/7642558420946274565/detail",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:00.100532+00:00",
+      "last_error": ""
+    },
+    "4025264261ce15ac": {
+      "url": "https://hr.163.com/job-detail.html?positionId=78565",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:01.303944+00:00",
+      "last_error": ""
+    },
+    "3fbd0fe6b1bd43ca": {
+      "url": "https://hr.163.com/job-detail.html?positionId=77496",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:02.523272+00:00",
+      "last_error": ""
+    },
+    "0b7eebd67beb8613": {
+      "url": "https://hr.163.com/job-detail.html?positionId=76730",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:03.719815+00:00",
+      "last_error": ""
+    },
+    "2583ef365fdaacb5": {
+      "url": "https://jobs.bytedance.com/experienced/position/7657032570933430581/detail",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:07.127815+00:00",
+      "last_error": ""
+    },
+    "9b1430c5210e354e": {
+      "url": "https://jobs.bytedance.com/experienced/position/7594694346400811269/detail",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:10.720548+00:00",
+      "last_error": ""
+    },
+    "a06130377ba42fa7": {
+      "url": "https://hr.163.com/job-detail.html?positionId=75580",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:11.917324+00:00",
+      "last_error": ""
+    },
+    "aeaac59b92d279ce": {
+      "url": "https://hr.163.com/job-detail.html?positionId=78842",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:13.114432+00:00",
+      "last_error": ""
+    },
+    "318772646203784e": {
+      "url": "https://hr.163.com/job-detail.html?positionId=79124",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:14.325305+00:00",
+      "last_error": ""
+    },
+    "40069747ce2df99f": {
+      "url": "https://hr.163.com/job-detail.html?positionId=76498",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:15.528684+00:00",
+      "last_error": ""
+    },
+    "97706d786981b7c5": {
+      "url": "https://hr.163.com/job-detail.html?positionId=52403",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:16.731008+00:00",
+      "last_error": ""
+    },
+    "a641233d700be2d8": {
+      "url": "https://hr.163.com/job-detail.html?positionId=66620",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:17.928913+00:00",
+      "last_error": ""
+    },
+    "48be62900993fd8b": {
+      "url": "https://hr.163.com/job-detail.html?positionId=71911",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:19.126061+00:00",
+      "last_error": ""
+    },
+    "3b9b53622a2b4dea": {
+      "url": "https://hr.163.com/job-detail.html?positionId=78954",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:20.322761+00:00",
+      "last_error": ""
+    },
+    "f4a072ee8e586792": {
+      "url": "https://hr.163.com/job-detail.html?positionId=78062",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:21.526350+00:00",
+      "last_error": ""
+    },
+    "e6eaaced26ab6af1": {
+      "url": "https://hr.163.com/job-detail.html?positionId=79062",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:22.723401+00:00",
+      "last_error": ""
+    },
+    "0724abeb65cbf4b7": {
+      "url": "https://hr.163.com/job-detail.html?positionId=79121",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:23.927028+00:00",
+      "last_error": ""
+    },
+    "44efe93a55006557": {
+      "url": "https://hr.163.com/job-detail.html?positionId=77154",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:25.134158+00:00",
+      "last_error": ""
+    },
+    "f6a174b3dbe9c6d0": {
+      "url": "https://hr.163.com/job-detail.html?positionId=68333",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-23T07:48:26.331146+00:00",
+      "last_error": ""
     }
   },
-  "updated_at": "2026-10-23T06:34:28.499271+00:00"
+  "updated_at": "2026-10-23T07:48:26.369568+00:00"
 }

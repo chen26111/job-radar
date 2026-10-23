@@ -28,8 +28,64 @@
       "company": "3M",
       "title": "CHK CBG Design Manager",
       "source_id": "wd-3m"
+    },
+    "7478ce47f393cedb": {
+      "pushed_at": "2026-10-23T07:48:29.260414+00:00",
+      "first_seen": "2026-10-23T07:22:43.564158+00:00",
+      "company": "网易",
+      "title": "资深体验设计师（商业化方向-UI）",
+      "source_id": "cn-netease"
+    },
+    "d61999c1f84ae5ae": {
+      "pushed_at": "2026-10-23T07:48:29.260414+00:00",
+      "first_seen": "2026-10-23T07:22:43.564158+00:00",
+      "company": "网易",
+      "title": "资深体验设计师（平台/社区/商业化方向-UI）",
+      "source_id": "cn-netease"
+    },
+    "059e106ec390aa76": {
+      "pushed_at": "2026-10-23T07:48:29.260414+00:00",
+      "first_seen": "2026-10-23T07:22:43.564158+00:00",
+      "company": "网易",
+      "title": "高级/资深交互设计（在研搜打撤）",
+      "source_id": "cn-netease"
+    },
+    "c2ddd4766497e651": {
+      "pushed_at": "2026-10-23T07:48:29.260414+00:00",
+      "first_seen": "2026-10-23T07:22:43.564158+00:00",
+      "company": "网易",
+      "title": "高级/资深游戏交互设计师（逆水寒端游）",
+      "source_id": "cn-netease"
+    },
+    "cb58cb420e4ccf8c": {
+      "pushed_at": "2026-10-23T07:48:29.260414+00:00",
+      "first_seen": "2026-10-23T07:22:43.564158+00:00",
+      "company": "网易",
+      "title": "高级/资深交互设计师（归唐）",
+      "source_id": "cn-netease"
+    },
+    "44efe93a55006557": {
+      "pushed_at": "2026-10-23T07:48:29.260414+00:00",
+      "first_seen": "2026-10-23T07:22:43.564158+00:00",
+      "company": "网易",
+      "title": "资深产品经理（Agent&播放体验）",
+      "source_id": "cn-netease"
+    },
+    "80717ab1b0deb34d": {
+      "pushed_at": "2026-10-23T07:48:29.260414+00:00",
+      "first_seen": "2026-10-23T07:22:43.564158+00:00",
+      "company": "网易",
+      "title": "资深产品经理（AI Agent）",
+      "source_id": "cn-netease"
+    },
+    "8a82f6576468135b": {
+      "pushed_at": "2026-10-23T07:48:29.260414+00:00",
+      "first_seen": "2026-10-23T07:22:43.564158+00:00",
+      "company": "网易",
+      "title": "资深AI产品策划",
+      "source_id": "cn-netease"
     }
   },
-  "last_marked_at": "2026-10-23T06:34:31.258980+00:00",
-  "last_marked_count": 4
+  "last_marked_at": "2026-10-23T07:48:29.260414+00:00",
+  "last_marked_count": 8
 }
