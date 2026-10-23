@@ -30,16 +30,16 @@ if "!TOKEN!"=="" (
 
 rem --- 3. 推送（force：整体替换仓库里被打平的文件） ---
 echo [3/3] pushing...
-git push -f https://!TOKEN!@github.com/chen2611/job-radar.git main
+git push -f https://!TOKEN!@github.com/chen26111/job-radar.git main
 set "CODE=!errorlevel!"
 echo.
 if !CODE!==0 (
-  echo [OK] Done. Open https://github.com/chen2611/job-radar/actions
+  echo [OK] Done. Open https://github.com/chen26111/job-radar/actions
 ) else (
   echo [FAIL] exit code !CODE!
   echo   - 401/403: token 无效或没有 repo 权限
   echo   - timeout/closed: 代理没开，或端口不是 7890
-  echo   - not found: 仓库名不对，检查 chen2611/job-radar
+  echo   - not found: 仓库名不对，检查 chen26111/job-radar
 )
 echo.
 pause
