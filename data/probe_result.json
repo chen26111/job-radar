@@ -1,0 +1,15 @@
+{
+  "probed_at": "2026-10-23 15:04",
+  "keep": [
+    {
+      "name": "astrazeneca",
+      "adapter": "workday",
+      "endpoint": "astrazeneca.wd3.myworkdayjobs.com|astrazeneca|Careers",
+      "total": 413,
+      "cn": 410,
+      "hz": 3,
+      "design": 0,
+      "hz_design": 0
+    }
+  ]
+}

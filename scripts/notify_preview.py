@@ -36,7 +36,8 @@ import sys  # noqa: E402
 if ROOT not in sys.path:
     sys.path.insert(0, ROOT)
 
-from job_radar import llm, render  # noqa: E402
+from job_radar import llm, render, salary  # noqa: E402
+from job_radar.role_rules import role_ring  # noqa: E402
 
 DATA_DIR = os.path.join(ROOT, "data")
 JOBS = os.path.join(DATA_DIR, "jobs.json")
@@ -53,6 +54,25 @@ LOW = {"代招/委托", "猎头", "劳务派遣", "泛销售", "低相关管培"
 LINK_FAIL_LIMIT = 3
 # 存量兜底的回看窗口（天）
 STANDBY_DAYS = 14
+# 同一家公司每次最多出几条（网易杭州岗很多，但一家占满整个播报也没意义）
+PER_COMPANY = 5
+# 辐射环（产品经理）每次最多几条
+PM_LIMIT = 4
+# 老岗阈值：挂超过这么久的岗位不再进播报（config/profiles.json 的 max_age_days 可改）
+def _profile() -> dict:
+    """读画像配置（口径和 sync 一致）。读不到就用默认 90 天。"""
+    import json
+    import os
+    path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                        "config", "profiles.json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            return (json.load(f).get("ux-product-design") or {})
+    except Exception:                                    # noqa: BLE001
+        return {}
+
+
+MAX_AGE_DAYS = int(_profile().get("max_age_days") or 90)
 
 
 # --------------------------------------------------------------------------- #
@@ -145,16 +165,29 @@ def days_since(iso: str) -> Optional[int]:
 
 
 def _freshness(score: int, jd: Dict, job: Dict) -> int:
-    """排序权重：分数 + 新鲜度。新岗应该排在老岗前面。"""
+    """排序权重：匹配度 + 待遇 + 新鲜度（三者叠加，可解释）。
+
+    待遇这一项**只在 JD 里写明了数字时才生效**，没写就是 0，不猜也不罚——
+    外企 JD 普遍不写薪资，不能因为"没写"就把它排到后面。
+    """
     d = days_since(str((jd or {}).get("start_date") or ""))
     if d is None:
-        d = days_since(str(job.get("first_seen") or "")[:10])
+        d = days_since(str(job.get("publish_time") or "")[:10])
     if d is None:
-        return score
-    if d <= 7:
-        return score + 6
-    if d <= 30:
-        return score + 3
+        d = days_since(str(job.get("first_seen") or "")[:10])
+    if d is not None:
+        if d <= 7:
+            score += 6
+        elif d <= 30:
+            score += 3
+        elif d >= 180:
+            score -= 4          # 挂了半年以上，大概率是滚动招聘
+    # JD 文本两个来源：Workday 详情接口（jd_cache）或同步时抓到的正文（jobs.json）
+    jd_text = str((jd or {}).get("jd_text") or job.get("jd_text") or "")
+    sal = salary.extract(jd_text)
+    score += salary.rank_bonus(sal)
+    if sal:
+        job["_salary"] = sal    # 渲染层要展示
     return score
 
 
@@ -205,6 +238,20 @@ def build_report(limit: int = 8, standby_limit: int = 5, min_match: int = 55,
             })
             continue
 
+        # 老岗治理：挂太久的岗位（默认 >90 天）不再进播报，
+        # 但会写进「已排除」说明原因——不静默消失，也不占版面。
+        age = days_since(str(jd.get("start_date") or ""))
+        if age is None:
+            age = days_since(str(j.get("publish_time") or "")[:10])
+        if age is None:
+            age = days_since(str(j.get("first_seen") or "")[:10])
+        if age is not None and age > MAX_AGE_DAYS:
+            excluded.append({
+                "label": f"{render.company_display(j)} {render.clean_title(j)}",
+                "reason": f"已挂 {age} 天（超过 {MAX_AGE_DAYS} 天阈值），多半已招满",
+            })
+            continue
+
         # 链接连续 3 次打不开才剔除，避免偶发抖动误杀
         lh = link_health.get(key) or {}
         if int(lh.get("fails") or 0) >= LINK_FAIL_LIMIT:
@@ -228,9 +275,6 @@ def build_report(limit: int = 8, standby_limit: int = 5, min_match: int = 55,
         pool = [j for j in active if str(j.get("first_seen") or "")[:10] >= since_day]
         pool = [j for j in pool if not is_pushed(j, state)]
 
-    pool = _pick(pool, limit)
-    pool_keys = {job_key(j) for j in pool}
-
     # ---- 存量兜底：在架 + 近 14 天更新，不看推送状态 ----
     # 外企杭州设计岗实测长期只有 3-5 条，若存量也按"推过就不再提"处理，
     # 第 2 天起播报就永远是空的。
@@ -239,8 +283,19 @@ def build_report(limit: int = 8, standby_limit: int = 5, min_match: int = 55,
         standby_rows = [j for j in active
                         if (lambda d: d is not None and d <= STANDBY_DAYS)(
                             days_since(str(j.get("last_seen") or "")))
-                        and job_key(j) not in pool_keys]
-        standby_rows = _pick(standby_rows, standby_limit, skip=pool_keys)
+                        and job_key(j) not in {job_key(x) for x in pool}]
+
+    # ---- 按环分别挑选 ----
+    # 关键：先分环再按公司限额。否则网易的设计岗会把同公司的产品经理名额挤光，
+    # 结果辐射环永远出不来。
+    def ring_of(j: Dict) -> str:
+        return role_ring(j.get("title") or "", j.get("jd_text") or "") or ""
+
+    combined = pool + standby_rows
+    design_rows = _pick([j for j in combined if ring_of(j) == "design"], limit)
+    pm_rows = _pick([j for j in combined if ring_of(j) == "pm"], PM_LIMIT)
+    picked_keys = {job_key(j) for j in design_rows + pm_rows}
+    pool = [j for j in pool if job_key(j) in picked_keys]
 
     # ---- 视图模型 ----
     def to_views(rows: List[Dict]) -> List[Dict]:
@@ -273,19 +328,24 @@ def build_report(limit: int = 8, standby_limit: int = 5, min_match: int = 55,
                    if "杭州" in (j.get("location") or "")
                    or "hangzhou" in (j.get("location") or "").lower())
 
+    # ---- 分节：设计岗是核心，产品经理是向外辐射的一环 ----
+    # 两节分开排，避免"产品经理"混在设计岗里让人以为是设计岗。
+    all_views = new_views + standby_views
+    design_views = [v for v in all_views if v.get("ring") == "design"]
+    pm_views = [v for v in all_views if v.get("ring") == "pm"]
+
     sections = []
-    # 没有新增时不空占一节——开场直接说明"今日无新增，以下是近 14 天在招"更清楚
-    if new_views or not standby_views:
+    if design_views or not pm_views:
         sections.append({
-            "title": "今日新收录",
-            "note": "本次首次抓到，非官网发布日期" if new_views else "",
-            "items": new_views,
+            "title": f"设计岗 · 杭州（{len(design_views)}）",
+            "note": "交互/UI/体验/视觉方向，本次主推" if design_views else "今日暂无达标设计岗",
+            "items": design_views,
         })
-    if standby:
+    if pm_views:
         sections.append({
-            "title": f"近 {STANDBY_DAYS} 天在招",
-            "note": "官网仍在架，已挂时间较久的会单独标注",
-            "items": standby_views,
+            "title": f"产品经理 · 杭州（{len(pm_views)}）",
+            "note": "向外辐射的一环：与设计强相关，非设计岗",
+            "items": pm_views,
         })
 
     subtitle_bits = []
@@ -294,7 +354,7 @@ def build_report(limit: int = 8, standby_limit: int = 5, min_match: int = 55,
     if excluded:
         subtitle_bits.append("已剔除正文与标题不符、链接失效的岗位，见文末「已排除」")
 
-    footer_bits = ["数据来源：各公司官网 Workday 直连"]
+    footer_bits = ["数据来源：各公司官网招聘接口直连（Workday / 网易 / 字节 / 腾讯 / 美团）"]
     if total_src:
         footer_bits.append(f"{total_src} 个信源 {ok_src} 个正常")
     footer_bits.append(f"抓取于 {now.strftime('%m/%d %H:%M')}")
@@ -304,8 +364,9 @@ def build_report(limit: int = 8, standby_limit: int = 5, min_match: int = 55,
         footer += f"\n信息台：{workbench_url}"
 
     return {
-        "title": f"杭州外企设计岗日报 · {today.strftime('%m/%d')}",
-        "stats": (f"新收录 {len(new_views)} 条 · 近 {STANDBY_DAYS} 天在招 {len(standby_views)} 条 · "
+        # 信源已经不止外企（网易/字节等国内头部也在列），标题不能再写"外企"
+        "title": f"杭州设计岗日报 · {today.strftime('%m/%d')}",
+        "stats": (f"设计岗 {len(design_views)} 条 · 产品经理 {len(pm_views)} 条 · "
                   f"在架达标 {len(active)}（外企 {foreign_total} / 杭州 {hz_total}）"),
         "subtitle": "　".join(subtitle_bits),
         "sections": sections,
@@ -318,7 +379,7 @@ def build_report(limit: int = 8, standby_limit: int = 5, min_match: int = 55,
     }
 
 
-def _pick(rows: List[Dict], limit: int, per_company: int = 2,
+def _pick(rows: List[Dict], limit: int, per_company: int = PER_COMPANY,
           skip: Optional[set] = None) -> List[Dict]:
     """按公司限额挑选，避免同一家公司占满整个分组。"""
     skip = skip or set()

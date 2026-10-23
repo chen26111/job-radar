@@ -17,7 +17,7 @@ from .normalize import normalize_city
 from .job_attrs import LABELS as ATTR_LABELS
 from .job_attrs import extract as extract_attrs
 from .role_rules import (NON_DESIGN_TITLE, employer_tier, is_design_role,
-                         role_signal_score)
+                         role_ring, role_signal_score)
 
 # 纯 ASCII 且长度 <= 3 的词（ui/ux/ai/vr…）用词边界匹配，避免 "build" 命中 "ui"
 _SHORT_ASCII = re.compile(r"^[a-z0-9/+&. -]{1,3}$")
@@ -61,12 +61,36 @@ def score_job(job: Job, profile: Dict) -> ScoreResult:
     tags: List[str] = []
 
     # ------------------------------------------------------------------
-    # 硬门槛：不是设计岗就直接出局，分数归零。
-    # 不能靠"外企+34 / 杭州+8 / keyword 命中"把非设计岗凑过阈值——
+    # 硬门槛：既不是设计岗也不是产品经理就直接出局，分数归零。
+    # 不能靠"外企+34 / 杭州+8 / keyword 命中"把无关岗凑过阈值——
     # 那样播报里会混进 Fund Administration、Tax Planning、Package Design 硬件岗。
+    #
+    # 两个环（用户口径：以交互/UI 设计为中心，向外辐射，产品经理也算）：
+    #   design 核心环 —— 正常计分
+    #   pm     外环  —— 降权后计分，播报里单独成节，不与设计岗混排
     # ------------------------------------------------------------------
-    if not is_design_role(job.title, job.jd_text):
+    ring = role_ring(job.title, job.jd_text)
+    if not ring:
         return ScoreResult(score=0, tags=["非设计岗"], risk_flags=[])
+
+    # ------------------------------------------------------------------
+    # 城市硬过滤：只要杭州。
+    # 地点已知且明确不在目标城市 → 直接出局（以前只是加分，结果上海岗也混进来了）。
+    # 地点为空时**不杀**：很多外企 Workday 列表不带地点，杀了会误伤。
+    # 纯远程岗只在工作地/JD 里写了杭州或中国时才留 —— 否则大概率要工签。
+    # ------------------------------------------------------------------
+    if profile.get("city_hard_filter"):
+        targets = {normalize_city(c) for c in profile.get("cities", []) if c}
+        job_city = normalize_city(job.location)
+        loc_text = f"{job.location} {job.title}".lower()
+        is_remote = any(k in loc_text for k in ("remote", "远程", "anywhere", "wfh"))
+        china_remote = is_remote and any(k in loc_text for k in ("杭州", "hangzhou", "中国", "china"))
+        if job_city and job_city not in targets and not china_remote:
+            return ScoreResult(score=0, tags=["不在杭州"], risk_flags=[])
+
+    if ring == "pm":
+        score -= int(profile.get("pm_ring_penalty", 12))
+        tags.append("产品经理")
 
     # 专业匹配（关键词命中**封顶**：防止 JD 堆词把无名小公司刷到第一）
     # 短英文词（ui/ux/ai…）用词边界匹配，否则 "build"/"quick"/"guide" 都会误命中 "ui"

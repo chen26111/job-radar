@@ -186,6 +186,49 @@ def test_jd_extract_offline() -> None:
             os.environ["LLM_API_KEY"] = saved
 
 
+# ---------- H. 岗位环 + 待遇抽取（离线，必过）----------
+def test_ring_and_salary_offline() -> None:
+    from job_radar import salary
+    from job_radar.role_rules import role_ring
+
+    # 岗位环：设计是核心，产品经理是外环，其余出局
+    cases = [
+        ("UI设计师", "design"), ("交互设计师", "design"), ("资深产品设计师", "design"),
+        ("Design Manager", "design"), ("Content Designer", "design"),
+        ("产品经理", "pm"), ("高级产品经理", "pm"), ("Product Manager", "pm"),
+        ("产品运营", ""), ("产品销售", ""), ("Software Engineer", ""),
+    ]
+    for title, want in cases:
+        got = role_ring(title)
+        check(f"岗位环 {title} → {want or '出局'}", got == want, f"实得 {got or '出局'}")
+
+    # 待遇：只认原文数字
+    sal_cases = [
+        ("薪资范围 20-40K·15薪", 20000, 40000),
+        ("月薪 15000-25000 元", 15000, 25000),
+        ("年薪 30-50万", 25000, 41667),          # 30万/12=25000
+    ]
+    for text, lo, hi in sal_cases:
+        got = salary.extract(text)
+        ok = got and abs(got["monthly_min"] - lo) <= 1 and abs(got["monthly_max"] - hi) <= 1
+        check(f"待遇抽取「{text[:16]}」", bool(ok),
+              f"实得 {got['monthly_min']}-{got['monthly_max']}" if got else "没抽到")
+
+    # 不能编造：这些写法的 JD 必须返回 None
+    for text in ("薪资面议", "competitive salary", "有竞争力的薪酬", ""):
+        check(f"待遇不猜：「{text or '空'}」", salary.extract(text) is None)
+
+    # 排序贡献：高薪加分、无薪资不罚
+    check("高待遇加分", salary.rank_bonus({"mid": 40000}) > 0)
+    check("低待遇减分", salary.rank_bonus({"mid": 10000}) < 0)
+    check("无待遇不加减", salary.rank_bonus(None) == 0)
+
+    # 产品经理不该被当成「经理」职级（曾经把"产品经理"识别成管理岗）
+    from job_radar import job_attrs
+    check("产品经理不是经理职级", job_attrs.extract("产品经理")["level"] == "")
+    check("设计经理仍是经理职级", job_attrs.extract("设计经理")["level"] == "manager")
+
+
 # ---------- G. 岗位属性层（离线，必过、可复现）----------
 def test_job_attrs_offline() -> None:
     print("\n[G] 岗位属性识别与加权（职级/雇佣/办公方式/方向/语言）")
@@ -270,6 +313,7 @@ if __name__ == "__main__":
     test_jsonld_offline()
     test_config_and_quality_offline()
     test_jd_extract_offline()
+    test_ring_and_salary_offline()
     test_job_attrs_offline()
     try:
         test_live_fetch()

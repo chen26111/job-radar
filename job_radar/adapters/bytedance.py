@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 from typing import List
 
 from ..models import RawJob
-from ..keyword_config import role_focus_keywords
+from ..keyword_config import design_focus_keywords, role_focus_keywords
 from . import register
 from .http import post_json
 
@@ -51,7 +51,7 @@ def fetch(endpoint: str) -> List[RawJob]:
     seen = set()
     # 通用 feed 深翻 + 目标方向关键词补全，避免算法/数据科学岗位被默认排序漏掉。
     plans = [("", PAGES)] + [(kw, INTERN_PAGES if kw == "实习" else FOCUS_PAGES)
-                             for kw in role_focus_keywords()]
+                             for kw in role_focus_keywords() + design_focus_keywords()]
     for kw, pages in plans:
         for page in range(pages):
             try:

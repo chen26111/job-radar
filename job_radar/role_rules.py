@@ -275,3 +275,43 @@ def employer_tier(company: str, industry: str, sid: str) -> Tuple[str, int]:
     if industry in HARD_IND and not sid.startswith(("edu-", "gov-")):
         return "硬科技", 14
     return "", 0
+
+
+# --------------------------------------------------------------------------- #
+# 向外辐射的一环：产品经理
+# 用户口径是「以交互/UI 设计为中心，向外辐射，也可以看产品经理」。
+# 设计岗是核心环（正常计分），产品经理是外环（降权但不出局）。
+# 注意两条边界：
+#   · "产品设计 / Product Designer" 属于设计岗（is_design_role 已覆盖），不是 PM
+#   · "产品运营 / 产品销售 / 产品市场(PMM)" 不算 PM，避免泛化
+# --------------------------------------------------------------------------- #
+PM_TITLE = (
+    "产品经理", "产品策划", "高级产品经理", "资深产品经理", "产品专家",
+    "产品负责人", "产品主管", "产品总监", "策略产品", "数据产品", "AI产品",
+    "product manager", "product owner", "senior product manager",
+    "principal product manager", "product lead", "head of product",
+)
+PM_EXCLUDE = (
+    "产品运营", "产品销售", "产品市场", "产品营销", "产品支持", "产品培训",
+    "产品专员", "产品助理", "product marketing", "product specialist",
+    "product support", "product sales", "product analyst",
+)
+
+
+def is_pm_role(title: str, jd_text: str = "") -> bool:
+    """是否是产品经理岗（外环）。只认岗位名，不认 JD 里出现的词。"""
+    t = (title or "").lower()
+    if not t:
+        return False
+    if any(x in t for x in PM_EXCLUDE):
+        return False
+    return any(x.lower() in t for x in PM_TITLE)
+
+
+def role_ring(title: str, jd_text: str = "") -> str:
+    """返回岗位所属环：design（核心）/ pm（外环）/ ''（出局）。"""
+    if is_design_role(title, jd_text):
+        return "design"
+    if is_pm_role(title, jd_text):
+        return "pm"
+    return ""

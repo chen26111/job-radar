@@ -18,8 +18,26 @@ from . import register
 from .http import post_json
 
 _API = "https://hr.163.com/api/hr163/position/queryPage"
-PAGES = 6
-PAGE = 20
+PAGES = 4          # 通用 feed
+FOCUS_PAGES = 3    # 每个设计/产品关键词翻几页
+PAGE = 50          # 接口实测 pageSize 可以开到 50，减少请求数
+
+
+def _ts_to_date(ts) -> str:
+    """updateTime 是 epoch 毫秒（实测 1792738657000 这种），要先换算再取日期。"""
+    import datetime as dt
+    try:
+        v = int(ts)
+    except (TypeError, ValueError):
+        return ""
+    if v <= 0:
+        return ""
+    if v > 1e12:
+        v //= 1000
+    try:
+        return dt.datetime.fromtimestamp(v).strftime("%Y-%m-%d")
+    except (OSError, OverflowError, ValueError):
+        return ""
 
 
 def _loc(wp) -> str:
@@ -38,29 +56,36 @@ def _loc(wp) -> str:
 
 @register("netease")
 def fetch(endpoint: str) -> List[RawJob]:
+    from ..keyword_config import design_focus_keywords
+
     jobs: List[RawJob] = []
     seen = set()
-    for p in range(1, PAGES + 1):
-        body = {"currentPage": p, "pageSize": PAGE, "workType": "",
-                "firstType": "", "secondType": "", "keyword": ""}
-        try:
-            d = post_json(_API, body, headers={"Referer": "https://hr.163.com/job-list.html"})
-        except Exception:  # noqa: BLE001 — 翻页失败即停
-            break
-        lst = (d.get("data") or {}).get("list") or []
-        if not lst:
-            break
-        for e in lst:
-            jid = e.get("id")
-            if not jid or jid in seen:
-                continue
-            seen.add(jid)
-            jd = " ".join(filter(None, [e.get("requirement", ""), e.get("description", "")]))[:2000]
-            jobs.append(RawJob(
-                company_name="网易",
-                title=e.get("name", ""),
-                location=_loc(e.get("workPlaceNameList") or e.get("workPlaceList")),
-                publish_time=str(e.get("updateTime", ""))[:10] if e.get("updateTime") else "",
+    # 通用 feed + 设计/产品关键词定向。只翻通用 feed 时杭州设计岗只能抓到个位数，
+    # 加关键词后能到几十条 —— 默认排序把设计岗排在很后面，必须主动搜。
+    plans = [("", PAGES)] + [(kw, FOCUS_PAGES) for kw in design_focus_keywords()]
+    for kw, pages in plans:
+        for p in range(1, pages + 1):
+            body = {"currentPage": p, "pageSize": PAGE, "workType": "",
+                    "firstType": "", "secondType": "", "keyword": kw}
+            try:
+                d = post_json(_API, body,
+                              headers={"Referer": "https://hr.163.com/job-list.html"})
+            except Exception:  # noqa: BLE001 — 翻页失败即停
+                break
+            lst = (d.get("data") or {}).get("list") or []
+            if not lst:
+                break
+            for e in lst:
+                jid = e.get("id")
+                if not jid or jid in seen:
+                    continue
+                seen.add(jid)
+                jd = " ".join(filter(None, [e.get("requirement", ""), e.get("description", "")]))[:2000]
+                jobs.append(RawJob(
+                    company_name="网易",
+                    title=e.get("name", ""),
+                    location=_loc(e.get("workPlaceNameList") or e.get("workPlaceList")),
+                    publish_time=_ts_to_date(e.get("updateTime")),
                 official_url=f"https://hr.163.com/job-detail.html?positionId={jid}",
                 jd_text=jd,
                 raw={"platform": "netease", "degree": e.get("reqEducationName", ""),

@@ -17,6 +17,9 @@ _DEFAULTS = {
     "intern": ["实习"],
     "data_algo": ["算法", "机器学习", "数据科学", "数据挖掘", "推荐算法", "大模型"],
     "product": ["AI产品", "策略产品", "数据产品"],
+    # 设计/产品向补抓词：只靠默认 feed 排序会漏掉大量杭州 UX/交互岗
+    "design": ["设计", "交互", "UI", "UX", "视觉", "体验设计", "用户研究",
+               "产品经理", "产品策划"],
     "decision": ["战略分析", "经营分析", "商业分析", "行业研究", "管培生", "数字化转型"],
     "campus_cycle": ["2027", "27届", "提前批", "央企校招", "国企校招", "秋招", "春招"],
     "iguopin_extra": ["大模型算法"],
@@ -50,6 +53,11 @@ def keywords(*groups: str) -> List[str]:
 
 def role_focus_keywords() -> List[str]:
     return keywords("intern", "data_algo")
+
+
+def design_focus_keywords() -> List[str]:
+    """设计/产品向补抓词（适配器的默认排序经常漏掉这些岗）。"""
+    return keywords("design")
 
 
 def iguopin_keywords() -> List[str]:

@@ -53,3 +53,9 @@ wd-jnj,强生,tech,ats,workday,jnj.wd5.myworkdayjobs.com|jnj|JJ,3,api,no,上海�
 # ===== 平台侧聚合（JobSpy 通道，见 scripts/jobspy_source.py）=====
 # 不走 sources.csv，由 jobspy_source.py 直接写入 data/
 # 覆盖 LinkedIn / Indeed / Glassdoor / Google Jobs 上的杭州设计岗
+cn-netease,网易,tech,ats,netease,https://hr.163.com,1,api,no,杭州,720,active,关键词定向实测：杭州岗位 355，其中设计 58 / 产品 30。默认 feed 只能抓到个位数，必须走 keyword
+cn-bytedance,字节跳动,tech,ats,bytedance,https://jobs.bytedance.com,1,api,no,杭州,720,active,实测杭州岗 50，其中设计 10。keyword 需带设计词否则默认排序漏掉
+cn-tencent,腾讯,tech,ats,tencent,https://careers.tencent.com,2,api,no,全国·杭州少量,1440,active,杭州岗偏少（实测 7），保留作补充
+cn-meituan,美团,tech,ats,meituan,https://zhaopin.meituan.com,2,api,no,全国·杭州少量,1440,active,实测杭州岗 9
+cn-jd,京东,tech,ats,jd,https://zhaopin.jd.com,3,api,no,全国,1440,active,接口返回量小，作为补充
+wd-astrazeneca,阿斯利康,tech,ats,workday,astrazeneca.wd3.myworkdayjobs.com|astrazeneca|Careers,2,api,no,杭州,1440,active,实测 413 岗，中国 410，杭州 3；设计岗 0，靠后续增量发现

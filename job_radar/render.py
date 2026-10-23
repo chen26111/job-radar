@@ -30,7 +30,8 @@ import datetime as dt
 import re
 from typing import Dict, List, Optional
 
-from . import job_attrs
+from . import jd_extract, job_attrs
+from .role_rules import role_ring
 
 # --------------------------------------------------------------------------- #
 # 词表
@@ -70,7 +71,8 @@ def city_zh(location: str) -> List[str]:
     out, seen = [], set()
     for part in re.split(r"[/|;、]", location or ""):
         found = ""
-        low = part.strip().lower()
+        # 国内 ATS 常写「杭州市」「上海」这种带行政后缀的写法，先去掉后缀再匹配
+        low = re.sub(r"(市|区|县|省)$", "", part.strip()).lower()
         for key, zh in CITY_ZH.items():
             if re.search(rf"(?<![a-z]){re.escape(key)}(?![a-z])", low):
                 found = zh
@@ -80,7 +82,8 @@ def city_zh(location: str) -> List[str]:
             m = re.search(r"([\u4e00-\u9fa5]{2,4})(?:市|区|省)?", part)
             if m and m.group(1) not in _CITY_NOISE and not re.search(r"中国|china", low):
                 found = m.group(1)
-        found = (found or "").strip()
+        # 去掉行政后缀：「杭州市」→「杭州」，否则会被下面的"不在杭州"判断误伤
+        found = re.sub(r"(市|区|县|省)$", "", (found or "").strip())
         if found and found not in seen and found not in _CITY_NOISE:
             seen.add(found)
             out.append(found)
@@ -116,7 +119,7 @@ def _days_between(iso_date: str) -> Optional[int]:
     return (dt.date.today() - d).days
 
 
-def posted_text(jd: Dict) -> str:
+def posted_text(jd: Dict, job: Optional[Dict] = None) -> str:
     """发布时间——三档口径，绝不混用。
 
     1) 有官网 startDate（真实发布日期）→ "2026-08-14 发布（70 天前）"
@@ -131,6 +134,10 @@ def posted_text(jd: Dict) -> str:
     raw = str((jd or {}).get("posted_on") or "").strip()
     if raw:
         return f"官网显示「{_zh_posted(raw)}」"
+    # 国内源没有 startDate，用同步时抓到的官网时间（也是官网字段，不是我们猜的）
+    pt = str((job or {}).get("publish_time") or "").strip()[:10]
+    if pt:
+        return f"官网更新于 {pt}"
     return ""
 
 
@@ -171,13 +178,14 @@ def facts_line(facts: Dict) -> str:
 # --------------------------------------------------------------------------- #
 # 视图模型
 # --------------------------------------------------------------------------- #
-def _pick_points(jd: Dict, ai: Optional[Dict], lang: str):
+def _pick_points(jd: Dict, ai: Optional[Dict], lang: str, summary: Optional[Dict] = None):
     """决定「做什么 / 要求」用哪一版内容。
 
     优先大模型（已过数字校验），其次规则提取。英文原文在没有大模型时
     只保留 2 条并标注"原文"，避免播报变成英文长文。
     """
-    rule = (jd or {}).get("summary") or {}
+    # summary 可以来自 jd_cache（Workday 详情）也可以来自 jobs.json 自带的 JD 正文
+    rule = summary or ((jd or {}).get("summary") or {})
     duty = list((ai or {}).get("duty") or [])
     must = list((ai or {}).get("must") or [])
     from_ai = bool(duty or must)
@@ -195,8 +203,11 @@ def view(job: Dict, jd: Optional[Dict] = None, ai: Optional[Dict] = None,
     """单条岗位 → 视图模型（渲染层唯一入口）。"""
     jd = jd or {}
     summary = jd.get("summary") or {}
+    # 国内源的 JD 正文同步时就抓到了，没有 Workday 详情缓存也能出要点
+    if not summary.get("has_jd") and job.get("jd_text"):
+        summary = jd_extract.summarize(job.get("jd_text") or "") or summary
     lang = summary.get("lang") or "zh"
-    duty, must, from_ai = _pick_points(jd, ai, lang)
+    duty, must, from_ai = _pick_points(jd, ai, lang, summary)
 
     cities = city_zh(job.get("location") or jd.get("location") or "")
     if not cities and jd.get("additional_locations"):
@@ -219,6 +230,11 @@ def view(job: Dict, jd: Optional[Dict] = None, ai: Optional[Dict] = None,
         meta_bits.append(f"职位号 {jd['req_id']}")
     # 不再重复写地点：多城市已经在卡片首行的「· 厦门 / 杭州」里了
 
+    # 待遇放 meta 行最前面：这是用户明确关心的排序/筛选维度
+    _sal = job.get("_salary") or {}
+    if _sal.get("text"):
+        meta_bits.insert(0, _sal["text"])
+
     # ---- 可信度提示（都是原文能查证的事实，不是猜测） ----
     warn = ""
     age = _days_between(jd.get("start_date") or "")
@@ -239,14 +255,21 @@ def view(job: Dict, jd: Optional[Dict] = None, ai: Optional[Dict] = None,
         # 日报标题写的是杭州，混进外地岗必须就地说明，不能让人点进去才发现
         warn = f"工作地为「{' / '.join(cities)}」，不在杭州"
 
+    # 待遇：只展示 JD 原文写明的数字（没有就不显示，绝不估算）
+    sal = job.get("_salary") or {}
+    sal_text = sal.get("text") or ""
+
     one = (ai or {}).get("one_liner") or ""
     return {
+        "ring": role_ring(job.get("title") or "", jd.get("jd_text") or ""),
+        "salary": sal_text,
         "company": company_display(job),
         "city": " / ".join(cities),
-        "role": role_tag(job),
+        # 产品经理岗的职能标签走环判定，否则会被设计方向词误标成"动效/交互"
+        "role": "产品经理" if role_ring(job.get("title") or "", jd.get("jd_text") or "") == "pm" else role_tag(job),
         "title": clean_title(job),
         "meta": " · ".join(meta_bits),
-        "posted": posted_text(jd),
+        "posted": posted_text(jd, job),
         "one_liner": one,
         "duty": duty,
         "must": must,

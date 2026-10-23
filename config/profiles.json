@@ -338,11 +338,7 @@
     "county_penalty": 40,
     "cities": [
       "杭州",
-      "Hangzhou",
-      "上海",
-      "Shanghai",
-      "远程",
-      "remote"
+      "Hangzhou"
     ],
     "min_score_to_push": 55,
     "notification_channels": [
@@ -381,6 +377,9 @@
       "func:design_ops": 2,
       "func:accessibility": 2,
       "func:motion": 2
-    }
+    },
+    "city_hard_filter": true,
+    "pm_ring_penalty": 12,
+    "max_age_days": 90
   }
 }

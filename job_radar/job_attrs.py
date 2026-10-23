@@ -107,10 +107,23 @@ def _hit_zh(terms: Tuple[str, ...], text: str) -> bool:
     return any(t in text for t in terms)
 
 
+# "产品经理 / Product Manager" 里的"经理"是岗位名的一部分，不是管理职级；
+# 同理 "产品专家" 不是 "首席"。识别职级时先把这些 PM 说法挖掉再判。
+_PM_PHRASE = re.compile(
+    r"(产品经理|高级产品经理|资深产品经理|产品策划|产品负责人|产品专家|"
+    r"product\s*manager|product\s*owner|senior\s*product\s*manager|"
+    r"principal\s*product\s*manager|product\s*lead)", re.I)
+
+
+def _strip_pm(title: str) -> str:
+    return _PM_PHRASE.sub(" ", title or "")
+
+
 def _first_level(low_title: str, low_text: str) -> Tuple[str, str]:
     """先看标题，标题没有级别词再看正文。返回 (key, 中文标签)。"""
+    t = _strip_pm(low_title)
     for key, pat, zh, _rank, label in _LEVELS:
-        if _hit_en(pat, low_title) or _hit_zh(zh, low_title):
+        if _hit_en(pat, t) or _hit_zh(zh, t):
             return key, label
     for key, pat, zh, _rank, label in _LEVELS:
         if _hit_en(pat, low_text) or _hit_zh(zh, low_text):
