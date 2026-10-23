@@ -26,6 +26,11 @@ on:
     - cron: "30 8 * * *"
       timezone: "Asia/Shanghai"
   workflow_dispatch:
+    inputs:
+      force:
+        description: "无新增时也发送存量岗位（用来测试推送通道）"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -77,7 +82,8 @@ jobs:
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
         # 推送失败不让整个任务红：数据已经抓到了，下次会补推
         continue-on-error: true
-        run: python3 scripts/send_notify.py
+        # 手动运行并勾选 force 时，即使今日无新增也发一条存量播报，方便验证通道
+        run: python3 scripts/send_notify.py ${{ inputs.force && '--force' || '' }}
 
       - name: Upload daily report
         if: always()
