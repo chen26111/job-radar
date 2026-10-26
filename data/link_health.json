@@ -34,7 +34,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:34.614493+00:00",
+      "checked_at": "2026-10-26T05:13:25.414635+00:00",
       "last_error": ""
     },
     "d52c58d8654103b3": {
@@ -52,7 +52,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:08:42.098564+00:00",
+      "checked_at": "2026-10-26T05:12:25.741778+00:00",
       "last_error": ""
     },
     "d61999c1f84ae5ae": {
@@ -61,7 +61,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:08:43.310160+00:00",
+      "checked_at": "2026-10-26T05:12:27.249988+00:00",
       "last_error": ""
     },
     "c2ddd4766497e651": {
@@ -70,7 +70,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:08:44.497407+00:00",
+      "checked_at": "2026-10-26T05:12:30.278051+00:00",
       "last_error": ""
     },
     "059e106ec390aa76": {
@@ -79,7 +79,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:08:45.691177+00:00",
+      "checked_at": "2026-10-26T05:12:28.767275+00:00",
       "last_error": ""
     },
     "9adbd0f7fc10a2ea": {
@@ -88,7 +88,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:08:48.642825+00:00",
+      "checked_at": "2026-10-26T05:12:34.177868+00:00",
       "last_error": ""
     },
     "cb58cb420e4ccf8c": {
@@ -97,7 +97,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:08:49.845807+00:00",
+      "checked_at": "2026-10-26T05:12:35.618118+00:00",
       "last_error": ""
     },
     "cb80dea1eb272ad5": {
@@ -106,7 +106,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:08:51.055517+00:00",
+      "checked_at": "2026-10-26T05:12:38.631606+00:00",
       "last_error": ""
     },
     "ff348022d8fa07fd": {
@@ -115,16 +115,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:08:52.250504+00:00",
-      "last_error": ""
-    },
-    "70651f6d4c2cbe53": {
-      "url": "https://hr.163.com/job-detail.html?positionId=77452",
-      "ok": true,
-      "status": 200,
-      "reason": "",
-      "fails": 0,
-      "checked_at": "2026-10-25T05:08:53.454826+00:00",
+      "checked_at": "2026-10-26T05:12:37.131347+00:00",
       "last_error": ""
     },
     "409e2ef3b58e2feb": {
@@ -133,7 +124,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:08:54.657097+00:00",
+      "checked_at": "2026-10-26T05:12:40.146740+00:00",
       "last_error": ""
     },
     "3302b38d429110f7": {
@@ -142,7 +133,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:08:55.862745+00:00",
+      "checked_at": "2026-10-26T05:12:41.669326+00:00",
       "last_error": ""
     },
     "158b1dded3ba9bff": {
@@ -151,7 +142,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:08:57.065373+00:00",
+      "checked_at": "2026-10-26T05:12:44.636317+00:00",
       "last_error": ""
     },
     "bfdefa90e37b6e87": {
@@ -160,7 +151,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:08:58.275821+00:00",
+      "checked_at": "2026-10-26T05:12:43.120339+00:00",
       "last_error": ""
     },
     "8ef1224148f4b0f9": {
@@ -169,7 +160,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:02.421036+00:00",
+      "checked_at": "2026-10-26T05:12:48.178635+00:00",
       "last_error": ""
     },
     "c6b24d11462366a3": {
@@ -178,7 +169,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:03.617288+00:00",
+      "checked_at": "2026-10-26T05:12:49.678806+00:00",
       "last_error": ""
     },
     "3d16b5dcdce73414": {
@@ -187,7 +178,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:04.820630+00:00",
+      "checked_at": "2026-10-26T05:12:51.199313+00:00",
       "last_error": ""
     },
     "af019854b5144f09": {
@@ -196,7 +187,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:06.021908+00:00",
+      "checked_at": "2026-10-26T05:12:52.629585+00:00",
       "last_error": ""
     },
     "23804c7b073228cc": {
@@ -205,16 +196,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:07.225197+00:00",
-      "last_error": ""
-    },
-    "0f0aa640e4d69d03": {
-      "url": "https://hr.163.com/job-detail.html?positionId=71005",
-      "ok": true,
-      "status": 200,
-      "reason": "",
-      "fails": 0,
-      "checked_at": "2026-10-25T05:09:08.414098+00:00",
+      "checked_at": "2026-10-26T05:12:54.126873+00:00",
       "last_error": ""
     },
     "fafd52b95e55a087": {
@@ -223,7 +205,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:09.602152+00:00",
+      "checked_at": "2026-10-26T05:12:55.651294+00:00",
       "last_error": ""
     },
     "ade231f769df86af": {
@@ -232,7 +214,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:12.803343+00:00",
+      "checked_at": "2026-10-26T05:12:59.282617+00:00",
       "last_error": ""
     },
     "4025264261ce15ac": {
@@ -241,16 +223,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:13.992534+00:00",
-      "last_error": ""
-    },
-    "3fbd0fe6b1bd43ca": {
-      "url": "https://hr.163.com/job-detail.html?positionId=77496",
-      "ok": true,
-      "status": 200,
-      "reason": "",
-      "fails": 0,
-      "checked_at": "2026-10-25T05:09:15.182328+00:00",
+      "checked_at": "2026-10-26T05:13:00.802422+00:00",
       "last_error": ""
     },
     "0b7eebd67beb8613": {
@@ -259,7 +232,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:16.370381+00:00",
+      "checked_at": "2026-10-26T05:13:02.318938+00:00",
       "last_error": ""
     },
     "2583ef365fdaacb5": {
@@ -268,7 +241,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:19.699460+00:00",
+      "checked_at": "2026-10-26T05:13:06.200577+00:00",
       "last_error": ""
     },
     "9b1430c5210e354e": {
@@ -277,7 +250,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:22.982643+00:00",
+      "checked_at": "2026-10-26T05:13:11.554426+00:00",
       "last_error": ""
     },
     "a06130377ba42fa7": {
@@ -286,7 +259,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:24.171391+00:00",
+      "checked_at": "2026-10-26T05:13:12.985095+00:00",
       "last_error": ""
     },
     "aeaac59b92d279ce": {
@@ -295,7 +268,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:25.376129+00:00",
+      "checked_at": "2026-10-26T05:13:14.499066+00:00",
       "last_error": ""
     },
     "318772646203784e": {
@@ -304,7 +277,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:26.571596+00:00",
+      "checked_at": "2026-10-26T05:13:15.930048+00:00",
       "last_error": ""
     },
     "40069747ce2df99f": {
@@ -313,7 +286,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:27.760283+00:00",
+      "checked_at": "2026-10-26T05:13:17.437448+00:00",
       "last_error": ""
     },
     "97706d786981b7c5": {
@@ -322,7 +295,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:28.941748+00:00",
+      "checked_at": "2026-10-26T05:13:18.870978+00:00",
       "last_error": ""
     },
     "a641233d700be2d8": {
@@ -331,7 +304,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:30.132300+00:00",
+      "checked_at": "2026-10-26T05:13:20.310993+00:00",
       "last_error": ""
     },
     "48be62900993fd8b": {
@@ -340,7 +313,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:31.315121+00:00",
+      "checked_at": "2026-10-26T05:13:21.818901+00:00",
       "last_error": ""
     },
     "3b9b53622a2b4dea": {
@@ -349,7 +322,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:32.498535+00:00",
+      "checked_at": "2026-10-26T05:13:23.252567+00:00",
       "last_error": ""
     },
     "f4a072ee8e586792": {
@@ -358,7 +331,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:33.693038+00:00",
+      "checked_at": "2026-10-26T05:13:24.713447+00:00",
       "last_error": ""
     },
     "e6eaaced26ab6af1": {
@@ -367,7 +340,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:35.803634+00:00",
+      "checked_at": "2026-10-26T05:13:26.847081+00:00",
       "last_error": ""
     },
     "0724abeb65cbf4b7": {
@@ -376,16 +349,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:36.991805+00:00",
-      "last_error": ""
-    },
-    "44efe93a55006557": {
-      "url": "https://hr.163.com/job-detail.html?positionId=77154",
-      "ok": true,
-      "status": 200,
-      "reason": "",
-      "fails": 0,
-      "checked_at": "2026-10-25T05:09:38.187915+00:00",
+      "checked_at": "2026-10-26T05:13:28.281072+00:00",
       "last_error": ""
     },
     "f6a174b3dbe9c6d0": {
@@ -394,9 +358,45 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-10-25T05:09:39.378325+00:00",
+      "checked_at": "2026-10-26T05:13:29.719789+00:00",
+      "last_error": ""
+    },
+    "80717ab1b0deb34d": {
+      "url": "https://hr.163.com/job-detail.html?positionId=77396",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-26T05:13:31.153093+00:00",
+      "last_error": ""
+    },
+    "8a82f6576468135b": {
+      "url": "https://hr.163.com/job-detail.html?positionId=74220",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-26T05:13:32.686521+00:00",
+      "last_error": ""
+    },
+    "7b319a6857ac45d1": {
+      "url": "https://hr.163.com/job-detail.html?positionId=70383",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-26T05:13:34.110141+00:00",
+      "last_error": ""
+    },
+    "170f92c605acb131": {
+      "url": "https://hr.163.com/job-detail.html?positionId=77646",
+      "ok": true,
+      "status": 200,
+      "reason": "",
+      "fails": 0,
+      "checked_at": "2026-10-26T05:13:35.619475+00:00",
       "last_error": ""
     }
   },
-  "updated_at": "2026-10-25T05:09:39.417993+00:00"
+  "updated_at": "2026-10-26T05:13:35.649431+00:00"
 }
