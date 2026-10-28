@@ -308,8 +308,29 @@
       "company": "网易",
       "title": "产品经理（邮箱）",
       "source_id": "cn-netease"
+    },
+    "696b44e133707aa1": {
+      "pushed_at": "2026-10-28T06:06:48.281168+00:00",
+      "first_seen": "2026-10-28T06:00:28.889034+00:00",
+      "company": "网易",
+      "title": "游戏体验设计实习生-燕云十六声",
+      "source_id": "cn-netease"
+    },
+    "6c31ae4795f05a91": {
+      "pushed_at": "2026-10-28T06:06:48.281168+00:00",
+      "first_seen": "2026-10-28T06:00:28.889034+00:00",
+      "company": "网易",
+      "title": "高级/资深GUI设计师（无限大）",
+      "source_id": "cn-netease"
+    },
+    "1a4a97d4c311edfc": {
+      "pushed_at": "2026-10-28T06:06:48.281168+00:00",
+      "first_seen": "2026-10-28T06:00:28.889034+00:00",
+      "company": "网易",
+      "title": "游戏AI产品策划",
+      "source_id": "cn-netease"
     }
   },
-  "last_marked_at": "2026-10-27T05:28:48.158685+00:00",
-  "last_marked_count": 2
+  "last_marked_at": "2026-10-28T06:06:48.281168+00:00",
+  "last_marked_count": 3
 }
