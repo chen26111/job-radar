@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-29T06:10:19.705300+00:00",
+  "generated_at": "2026-10-30T06:10:17.667852+00:00",
   "sources_total": 11,
   "sources_catalog_total": 26,
   "preserve_unselected": true,
-  "jobs_raw": 3590,
-  "snapshot_after_dedup": 2673,
-  "duplicates_removed": 917,
-  "store_total": 2809,
-  "new_this_run": 287,
-  "gone_total": 308,
-  "archived_total": 1207,
-  "active_total": 2809,
+  "jobs_raw": 3397,
+  "snapshot_after_dedup": 2482,
+  "duplicates_removed": 915,
+  "store_total": 2818,
+  "new_this_run": 236,
+  "gone_total": 227,
+  "archived_total": 1410,
+  "active_total": 2818,
   "unhealthy": [
     {
       "source_id": "wd-siemens",
@@ -49,16 +49,21 @@
       "not_run": true
     }
   ],
-  "alerts": [],
+  "alerts": [
+    {
+      "source_id": "cn-meituan",
+      "alert": "抓取量跌为 0（历史峰值 200，疑似改版/失效）"
+    }
+  ],
   "sources": [
     {
       "source_id": "wd-pfizer",
       "adapter": "workday",
       "consecutive_failures": 0,
       "status": "active",
-      "last_success_at": "2026-10-29T06:10:43.938048+00:00",
+      "last_success_at": "2026-10-30T06:10:36.629553+00:00",
       "last_error": "",
-      "last_count": 200,
+      "last_count": 197,
       "peak_count": 205,
       "alert": ""
     },
@@ -67,9 +72,9 @@
       "adapter": "workday",
       "consecutive_failures": 0,
       "status": "active",
-      "last_success_at": "2026-10-29T06:10:49.567497+00:00",
+      "last_success_at": "2026-10-30T06:10:40.896637+00:00",
       "last_error": "",
-      "last_count": 134,
+      "last_count": 132,
       "peak_count": 141,
       "alert": ""
     },
@@ -78,7 +83,7 @@
       "adapter": "workday",
       "consecutive_failures": 0,
       "status": "active",
-      "last_success_at": "2026-10-29T06:10:54.619523+00:00",
+      "last_success_at": "2026-10-30T06:10:44.593902+00:00",
       "last_error": "",
       "last_count": 1,
       "peak_count": 1,
@@ -89,7 +94,7 @@
       "adapter": "workday",
       "consecutive_failures": 0,
       "status": "active",
-      "last_success_at": "2026-10-29T06:11:07.183615+00:00",
+      "last_success_at": "2026-10-30T06:10:56.791544+00:00",
       "last_error": "",
       "last_count": 0,
       "peak_count": 0,
@@ -100,9 +105,9 @@
       "adapter": "workday",
       "consecutive_failures": 0,
       "status": "active",
-      "last_success_at": "2026-10-29T06:11:20.834275+00:00",
+      "last_success_at": "2026-10-30T06:11:07.571511+00:00",
       "last_error": "",
-      "last_count": 121,
+      "last_count": 120,
       "peak_count": 141,
       "alert": ""
     },
@@ -111,10 +116,10 @@
       "adapter": "workday",
       "consecutive_failures": 0,
       "status": "active",
-      "last_success_at": "2026-10-29T06:12:09.962331+00:00",
+      "last_success_at": "2026-10-30T06:11:48.692446+00:00",
       "last_error": "",
-      "last_count": 557,
-      "peak_count": 557,
+      "last_count": 563,
+      "peak_count": 563,
       "alert": ""
     },
     {
@@ -122,9 +127,9 @@
       "adapter": "netease",
       "consecutive_failures": 0,
       "status": "active",
-      "last_success_at": "2026-10-29T06:12:28.089941+00:00",
+      "last_success_at": "2026-10-30T06:12:08.940615+00:00",
       "last_error": "",
-      "last_count": 569,
+      "last_count": 565,
       "peak_count": 578,
       "alert": ""
     },
@@ -133,10 +138,10 @@
       "adapter": "bytedance",
       "consecutive_failures": 0,
       "status": "active",
-      "last_success_at": "2026-10-29T06:13:49.020736+00:00",
+      "last_success_at": "2026-10-30T06:13:42.061911+00:00",
       "last_error": "",
-      "last_count": 723,
-      "peak_count": 723,
+      "last_count": 729,
+      "peak_count": 729,
       "alert": ""
     },
     {
@@ -144,9 +149,9 @@
       "adapter": "tencent",
       "consecutive_failures": 0,
       "status": "active",
-      "last_success_at": "2026-10-29T06:14:13.453579+00:00",
+      "last_success_at": "2026-10-30T06:14:14.696952+00:00",
       "last_error": "",
-      "last_count": 518,
+      "last_count": 517,
       "peak_count": 526,
       "alert": ""
     },
@@ -155,18 +160,18 @@
       "adapter": "meituan",
       "consecutive_failures": 0,
       "status": "active",
-      "last_success_at": "2026-10-29T06:14:25.457310+00:00",
+      "last_success_at": "2026-10-30T06:15:02.643806+00:00",
       "last_error": "",
-      "last_count": 200,
+      "last_count": 0,
       "peak_count": 200,
-      "alert": ""
+      "alert": "抓取量跌为 0（历史峰值 200，疑似改版/失效）"
     },
     {
       "source_id": "cn-jd",
       "adapter": "jd",
       "consecutive_failures": 0,
       "status": "active",
-      "last_success_at": "2026-10-29T06:14:49.024206+00:00",
+      "last_success_at": "2026-10-30T06:15:25.148542+00:00",
       "last_error": "",
       "last_count": 10,
       "peak_count": 10,
@@ -177,10 +182,10 @@
       "adapter": "workday",
       "consecutive_failures": 0,
       "status": "active",
-      "last_success_at": "2026-10-29T06:15:38.325176+00:00",
+      "last_success_at": "2026-10-30T06:16:05.692716+00:00",
       "last_error": "",
-      "last_count": 557,
-      "peak_count": 557,
+      "last_count": 563,
+      "peak_count": 563,
       "alert": ""
     },
     {
