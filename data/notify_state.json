@@ -392,8 +392,22 @@
       "company": "网易",
       "title": "高级GUI设计师",
       "source_id": "cn-netease"
+    },
+    "9b3a17231a2be069": {
+      "pushed_at": "2026-11-03T07:11:46.704299+00:00",
+      "first_seen": "2026-11-03T07:04:52.390293+00:00",
+      "company": "网易",
+      "title": "资深策略产品经理（内容生态）",
+      "source_id": "cn-netease"
+    },
+    "36662098cb254dc8": {
+      "pushed_at": "2026-11-03T07:11:46.704299+00:00",
+      "first_seen": "2026-11-03T07:04:52.390293+00:00",
+      "company": "网易",
+      "title": "AI产品策划（AI原生游戏方向）",
+      "source_id": "cn-netease"
     }
   },
-  "last_marked_at": "2026-11-02T06:42:24.655020+00:00",
+  "last_marked_at": "2026-11-03T07:11:46.704299+00:00",
   "last_marked_count": 2
 }
