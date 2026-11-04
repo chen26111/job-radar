@@ -406,8 +406,22 @@
       "company": "网易",
       "title": "AI产品策划（AI原生游戏方向）",
       "source_id": "cn-netease"
+    },
+    "98575112723e5579": {
+      "pushed_at": "2026-11-04T06:56:24.157652+00:00",
+      "first_seen": "2026-11-04T06:49:33.121606+00:00",
+      "company": "网易",
+      "title": "高级产品策划（AI互动娱乐方向）",
+      "source_id": "cn-netease"
+    },
+    "a2494e8de8beafdc": {
+      "pushed_at": "2026-11-04T06:56:24.157652+00:00",
+      "first_seen": "2026-11-04T06:49:33.121606+00:00",
+      "company": "网易",
+      "title": "产品专家（社交多人场景）",
+      "source_id": "cn-netease"
     }
   },
-  "last_marked_at": "2026-11-03T07:11:46.704299+00:00",
+  "last_marked_at": "2026-11-04T06:56:24.157652+00:00",
   "last_marked_count": 2
 }
