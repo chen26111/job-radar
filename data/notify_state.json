@@ -420,8 +420,15 @@
       "company": "网易",
       "title": "产品专家（社交多人场景）",
       "source_id": "cn-netease"
+    },
+    "ddccd865c5234200": {
+      "pushed_at": "2026-11-05T07:15:52.091116+00:00",
+      "first_seen": "2026-11-05T07:09:03.056673+00:00",
+      "company": "网易",
+      "title": "创意视觉设计实习生（云音乐）",
+      "source_id": "cn-netease"
     }
   },
-  "last_marked_at": "2026-11-04T06:56:24.157652+00:00",
-  "last_marked_count": 2
+  "last_marked_at": "2026-11-05T07:15:52.091116+00:00",
+  "last_marked_count": 1
 }
