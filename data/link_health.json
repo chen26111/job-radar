@@ -25,7 +25,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:35.626992+00:00",
+      "checked_at": "2026-11-06T07:15:10.259234+00:00",
       "last_error": ""
     },
     "d52c58d8654103b3": {
@@ -43,7 +43,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:14:29.916178+00:00",
+      "checked_at": "2026-11-06T07:14:13.404222+00:00",
       "last_error": ""
     },
     "d61999c1f84ae5ae": {
@@ -52,7 +52,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:14:31.426083+00:00",
+      "checked_at": "2026-11-06T07:14:14.591150+00:00",
       "last_error": ""
     },
     "c2ddd4766497e651": {
@@ -61,7 +61,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:14:34.449616+00:00",
+      "checked_at": "2026-11-06T07:14:16.935745+00:00",
       "last_error": ""
     },
     "059e106ec390aa76": {
@@ -70,7 +70,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:14:32.941769+00:00",
+      "checked_at": "2026-11-06T07:14:15.765132+00:00",
       "last_error": ""
     },
     "9adbd0f7fc10a2ea": {
@@ -79,7 +79,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:14:39.197711+00:00",
+      "checked_at": "2026-11-06T07:14:21.483807+00:00",
       "last_error": ""
     },
     "cb58cb420e4ccf8c": {
@@ -88,7 +88,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:14:40.638233+00:00",
+      "checked_at": "2026-11-06T07:14:22.677913+00:00",
       "last_error": ""
     },
     "cb80dea1eb272ad5": {
@@ -97,7 +97,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:14:43.589584+00:00",
+      "checked_at": "2026-11-06T07:14:25.069274+00:00",
       "last_error": ""
     },
     "ff348022d8fa07fd": {
@@ -106,16 +106,16 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:14:42.150868+00:00",
+      "checked_at": "2026-11-06T07:14:23.872380+00:00",
       "last_error": ""
     },
     "409e2ef3b58e2feb": {
-      "url": "https://hr.163.com/job-detail.html?positionId=76593",
+      "url": "https://hr.163.com/job-detail.html?positionId=77546",
       "ok": true,
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:14:45.019880+00:00",
+      "checked_at": "2026-11-06T07:14:29.811292+00:00",
       "last_error": ""
     },
     "3302b38d429110f7": {
@@ -124,7 +124,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:14:46.537090+00:00",
+      "checked_at": "2026-11-06T07:14:28.619321+00:00",
       "last_error": ""
     },
     "158b1dded3ba9bff": {
@@ -133,7 +133,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:14:49.416293+00:00",
+      "checked_at": "2026-11-06T07:14:32.204154+00:00",
       "last_error": ""
     },
     "bfdefa90e37b6e87": {
@@ -142,7 +142,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:14:47.975917+00:00",
+      "checked_at": "2026-11-06T07:14:31.014803+00:00",
       "last_error": ""
     },
     "8ef1224148f4b0f9": {
@@ -151,16 +151,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:14:55.294131+00:00",
-      "last_error": ""
-    },
-    "c6b24d11462366a3": {
-      "url": "https://hr.163.com/job-detail.html?positionId=79274",
-      "ok": true,
-      "status": 200,
-      "reason": "",
-      "fails": 0,
-      "checked_at": "2026-11-05T07:14:57.566766+00:00",
+      "checked_at": "2026-11-06T07:14:37.608303+00:00",
       "last_error": ""
     },
     "3d16b5dcdce73414": {
@@ -169,7 +160,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:14:59.816741+00:00",
+      "checked_at": "2026-11-06T07:14:38.800211+00:00",
       "last_error": ""
     },
     "af019854b5144f09": {
@@ -178,7 +169,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:01.334346+00:00",
+      "checked_at": "2026-11-06T07:14:39.993516+00:00",
       "last_error": ""
     },
     "23804c7b073228cc": {
@@ -187,7 +178,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:03.004045+00:00",
+      "checked_at": "2026-11-06T07:14:41.172388+00:00",
       "last_error": ""
     },
     "fafd52b95e55a087": {
@@ -196,7 +187,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:04.520378+00:00",
+      "checked_at": "2026-11-06T07:14:42.365348+00:00",
       "last_error": ""
     },
     "ade231f769df86af": {
@@ -205,7 +196,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:10.491292+00:00",
+      "checked_at": "2026-11-06T07:14:46.623959+00:00",
       "last_error": ""
     },
     "4025264261ce15ac": {
@@ -214,7 +205,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:12.000564+00:00",
+      "checked_at": "2026-11-06T07:14:47.793340+00:00",
       "last_error": ""
     },
     "0b7eebd67beb8613": {
@@ -223,7 +214,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:13.431874+00:00",
+      "checked_at": "2026-11-06T07:14:48.971900+00:00",
       "last_error": ""
     },
     "2583ef365fdaacb5": {
@@ -232,7 +223,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:18.560602+00:00",
+      "checked_at": "2026-11-06T07:14:53.591932+00:00",
       "last_error": ""
     },
     "9b1430c5210e354e": {
@@ -241,7 +232,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:23.041587+00:00",
+      "checked_at": "2026-11-06T07:14:57.232042+00:00",
       "last_error": ""
     },
     "a06130377ba42fa7": {
@@ -250,7 +241,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:24.465168+00:00",
+      "checked_at": "2026-11-06T07:14:58.403826+00:00",
       "last_error": ""
     },
     "aeaac59b92d279ce": {
@@ -259,7 +250,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:25.976632+00:00",
+      "checked_at": "2026-11-06T07:14:59.576072+00:00",
       "last_error": ""
     },
     "318772646203784e": {
@@ -268,7 +259,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:28.918594+00:00",
+      "checked_at": "2026-11-06T07:15:02.026182+00:00",
       "last_error": ""
     },
     "40069747ce2df99f": {
@@ -277,7 +268,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:30.441252+00:00",
+      "checked_at": "2026-11-06T07:15:05.676839+00:00",
       "last_error": ""
     },
     "97706d786981b7c5": {
@@ -286,7 +277,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:31.911769+00:00",
+      "checked_at": "2026-11-06T07:15:07.069353+00:00",
       "last_error": ""
     },
     "3b9b53622a2b4dea": {
@@ -295,7 +286,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:33.421768+00:00",
+      "checked_at": "2026-11-06T07:15:08.263241+00:00",
       "last_error": ""
     },
     "f4a072ee8e586792": {
@@ -304,7 +295,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:34.936085+00:00",
+      "checked_at": "2026-11-06T07:15:09.437813+00:00",
       "last_error": ""
     },
     "e6eaaced26ab6af1": {
@@ -313,7 +304,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:37.136758+00:00",
+      "checked_at": "2026-11-06T07:15:11.451743+00:00",
       "last_error": ""
     },
     "0724abeb65cbf4b7": {
@@ -322,7 +313,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:38.578569+00:00",
+      "checked_at": "2026-11-06T07:15:12.629174+00:00",
       "last_error": ""
     },
     "f6a174b3dbe9c6d0": {
@@ -331,7 +322,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:41.612734+00:00",
+      "checked_at": "2026-11-06T07:15:14.983968+00:00",
       "last_error": ""
     },
     "80717ab1b0deb34d": {
@@ -340,16 +331,16 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:44.601747+00:00",
+      "checked_at": "2026-11-06T07:15:16.273164+00:00",
       "last_error": ""
     },
     "170f92c605acb131": {
-      "url": "https://hr.163.com/job-detail.html?positionId=77646",
+      "url": "https://hr.163.com/job-detail.html?positionId=79776",
       "ok": true,
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-03T07:11:42.889165+00:00",
+      "checked_at": "2026-11-06T07:15:18.636320+00:00",
       "last_error": ""
     },
     "3a2b7eeaae91636d": {
@@ -367,7 +358,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:40.183136+00:00",
+      "checked_at": "2026-11-06T07:15:13.801210+00:00",
       "last_error": ""
     },
     "8cd621faeda0b834": {
@@ -376,7 +367,7 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:47.542750+00:00",
+      "checked_at": "2026-11-06T07:15:17.449099+00:00",
       "last_error": ""
     },
     "fb0e8478c9745829": {
@@ -385,36 +376,27 @@
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:27.408683+00:00",
+      "checked_at": "2026-11-06T07:15:00.752083+00:00",
       "last_error": ""
     },
-    "696b44e133707aa1": {
-      "url": "https://hr.163.com/job-detail.html?positionId=79565",
+    "6619010526e7b17e": {
+      "url": "https://hr.163.com/job-detail.html?positionId=77791",
       "ok": true,
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-04T06:56:20.713371+00:00",
+      "checked_at": "2026-11-06T07:14:26.255729+00:00",
       "last_error": ""
     },
-    "98575112723e5579": {
-      "url": "https://hr.163.com/job-detail.html?positionId=79724",
+    "d3f496f24243f976": {
+      "url": "https://hr.163.com/job-detail.html?positionId=77841",
       "ok": true,
       "status": 200,
       "reason": "",
       "fails": 0,
-      "checked_at": "2026-11-05T07:15:43.130748+00:00",
-      "last_error": ""
-    },
-    "8a82f6576468135b": {
-      "url": "https://hr.163.com/job-detail.html?positionId=74220",
-      "ok": true,
-      "status": 200,
-      "reason": "",
-      "fails": 0,
-      "checked_at": "2026-11-05T07:15:46.043351+00:00",
+      "checked_at": "2026-11-06T07:14:27.444444+00:00",
       "last_error": ""
     }
   },
-  "updated_at": "2026-11-05T07:15:47.588788+00:00"
+  "updated_at": "2026-11-06T07:15:18.663456+00:00"
 }

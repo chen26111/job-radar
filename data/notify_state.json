@@ -427,8 +427,29 @@
       "company": "网易",
       "title": "创意视觉设计实习生（云音乐）",
       "source_id": "cn-netease"
+    },
+    "6619010526e7b17e": {
+      "pushed_at": "2026-11-06T07:15:21.740471+00:00",
+      "first_seen": "2026-11-06T07:08:36.842234+00:00",
+      "company": "网易",
+      "title": "资深UI视觉设计师",
+      "source_id": "cn-netease"
+    },
+    "d3f496f24243f976": {
+      "pushed_at": "2026-11-06T07:15:21.740471+00:00",
+      "first_seen": "2026-11-06T07:08:36.842234+00:00",
+      "company": "网易",
+      "title": "资深UI视觉设计师-风格化",
+      "source_id": "cn-netease"
+    },
+    "fce8ec36a863b938": {
+      "pushed_at": "2026-11-06T07:15:21.740471+00:00",
+      "first_seen": "2026-11-06T07:08:36.842234+00:00",
+      "company": "网易",
+      "title": "平台产品经理实习生",
+      "source_id": "cn-netease"
     }
   },
-  "last_marked_at": "2026-11-05T07:15:52.091116+00:00",
-  "last_marked_count": 1
+  "last_marked_at": "2026-11-06T07:15:21.740471+00:00",
+  "last_marked_count": 3
 }
