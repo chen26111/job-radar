@@ -448,8 +448,22 @@
       "company": "网易",
       "title": "平台产品经理实习生",
       "source_id": "cn-netease"
+    },
+    "e4118736ef4c73a2": {
+      "pushed_at": "2026-11-09T07:05:49.776134+00:00",
+      "first_seen": "2026-11-09T06:59:01.568502+00:00",
+      "company": "网易",
+      "title": "游戏用户研究实习生（第五人格）",
+      "source_id": "cn-netease"
+    },
+    "c74a3482e6cc1d78": {
+      "pushed_at": "2026-11-09T07:05:49.776134+00:00",
+      "first_seen": "2026-11-09T06:59:01.568502+00:00",
+      "company": "网易",
+      "title": "中台产品经理（研发效能与工具平台方向）",
+      "source_id": "cn-netease"
     }
   },
-  "last_marked_at": "2026-11-06T07:15:21.740471+00:00",
-  "last_marked_count": 3
+  "last_marked_at": "2026-11-09T07:05:49.776134+00:00",
+  "last_marked_count": 2
 }
