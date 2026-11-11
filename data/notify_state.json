@@ -504,8 +504,29 @@
       "company": "网易",
       "title": "资深AI产品经理（企业效能方向）",
       "source_id": "cn-netease"
+    },
+    "b4c56a6b36e6a9c2": {
+      "pushed_at": "2026-11-11T07:00:43.815004+00:00",
+      "first_seen": "2026-11-11T06:53:55.311189+00:00",
+      "company": "网易",
+      "title": "高级产品策划（AI云协作）",
+      "source_id": "cn-netease"
+    },
+    "1fd1a6c6d9bbf2bb": {
+      "pushed_at": "2026-11-11T07:00:43.815004+00:00",
+      "first_seen": "2026-11-11T06:53:55.311189+00:00",
+      "company": "网易",
+      "title": "资深产品策划（AI云协作）",
+      "source_id": "cn-netease"
+    },
+    "33042ffcad0e4db5": {
+      "pushed_at": "2026-11-11T07:00:43.815004+00:00",
+      "first_seen": "2026-11-11T06:53:55.311189+00:00",
+      "company": "网易",
+      "title": "营收产品专家",
+      "source_id": "cn-netease"
     }
   },
-  "last_marked_at": "2026-11-10T07:42:59.316851+00:00",
-  "last_marked_count": 6
+  "last_marked_at": "2026-11-11T07:00:43.815004+00:00",
+  "last_marked_count": 3
 }
