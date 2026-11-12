@@ -525,8 +525,15 @@
       "company": "网易",
       "title": "营收产品专家",
       "source_id": "cn-netease"
+    },
+    "d17384e0b3ce128f": {
+      "pushed_at": "2026-11-12T07:36:37.195057+00:00",
+      "first_seen": "2026-11-12T07:29:42.158518+00:00",
+      "company": "网易",
+      "title": "资深游戏用户研究员（杭州）",
+      "source_id": "cn-netease"
     }
   },
-  "last_marked_at": "2026-11-11T07:00:43.815004+00:00",
-  "last_marked_count": 3
+  "last_marked_at": "2026-11-12T07:36:37.195057+00:00",
+  "last_marked_count": 1
 }
