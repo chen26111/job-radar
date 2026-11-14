@@ -1,36 +1,36 @@
 {
   "wd-pfizer": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "status": "active",
     "last_success_at": "2026-11-13T07:02:13.339764+00:00",
-    "last_error": "",
+    "last_error": "RuntimeError: workday 探针失败 pfizer.wd1.myworkdayjobs.com/pfizer/PfizerCareers: HTTP Error 521: <none>",
     "last_count": 297,
     "peak_count": 299,
     "alert": ""
   },
   "wd-statestreet": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "status": "active",
     "last_success_at": "2026-11-13T07:02:17.841030+00:00",
-    "last_error": "",
+    "last_error": "RuntimeError: workday 探针失败 statestreet.wd1.myworkdayjobs.com/statestreet/Global: HTTP Error 521: <none>",
     "last_count": 114,
     "peak_count": 141,
     "alert": ""
   },
   "wd-ringcentral": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "status": "active",
     "last_success_at": "2026-11-13T07:02:21.649985+00:00",
-    "last_error": "",
+    "last_error": "RuntimeError: workday 探针失败 ringcentral.wd1.myworkdayjobs.com/ringcentral/RingCentral_Careers: HTTP Error 521: <none>",
     "last_count": 1,
     "peak_count": 1,
     "alert": ""
   },
   "wd-amat": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "status": "active",
     "last_success_at": "2026-11-13T07:02:59.967739+00:00",
-    "last_error": "",
+    "last_error": "RuntimeError: workday 探针失败 amat.wd1.myworkdayjobs.com/amat/External: HTTP Error 521: <none>",
     "last_count": 158,
     "peak_count": 161,
     "alert": ""
@@ -83,7 +83,7 @@
   "wd-astrazeneca": {
     "consecutive_failures": 0,
     "status": "active",
-    "last_success_at": "2026-11-13T07:07:38.066839+00:00",
+    "last_success_at": "2026-11-14T06:56:04.879206+00:00",
     "last_error": "",
     "last_count": 626,
     "peak_count": 626,
@@ -99,10 +99,10 @@
     "alert": ""
   },
   "wd-zoom": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "status": "active",
     "last_success_at": "2026-11-13T07:02:46.232937+00:00",
-    "last_error": "",
+    "last_error": "RuntimeError: workday 探针失败 zoom.wd5.myworkdayjobs.com/zoom/Zoom: HTTP Error 521: <none>",
     "last_count": 0,
     "peak_count": 0,
     "alert": ""
@@ -110,34 +110,34 @@
   "cn-netease": {
     "consecutive_failures": 0,
     "status": "active",
-    "last_success_at": "2026-11-13T07:04:05.429512+00:00",
+    "last_success_at": "2026-11-14T06:52:34.490041+00:00",
     "last_error": "",
-    "last_count": 565,
+    "last_count": 562,
     "peak_count": 591,
     "alert": ""
   },
   "cn-bytedance": {
     "consecutive_failures": 0,
     "status": "active",
-    "last_success_at": "2026-11-13T07:05:49.569984+00:00",
+    "last_success_at": "2026-11-14T06:54:12.437988+00:00",
     "last_error": "",
-    "last_count": 724,
+    "last_count": 723,
     "peak_count": 729,
     "alert": ""
   },
   "cn-tencent": {
     "consecutive_failures": 0,
     "status": "active",
-    "last_success_at": "2026-11-13T07:06:17.860035+00:00",
+    "last_success_at": "2026-11-14T06:54:30.674981+00:00",
     "last_error": "",
-    "last_count": 501,
+    "last_count": 499,
     "peak_count": 526,
     "alert": ""
   },
   "cn-meituan": {
     "consecutive_failures": 0,
     "status": "active",
-    "last_success_at": "2026-11-13T07:06:33.672159+00:00",
+    "last_success_at": "2026-11-14T06:54:48.591144+00:00",
     "last_error": "",
     "last_count": 200,
     "peak_count": 200,
@@ -146,7 +146,7 @@
   "cn-jd": {
     "consecutive_failures": 0,
     "status": "active",
-    "last_success_at": "2026-11-13T07:06:53.540784+00:00",
+    "last_success_at": "2026-11-14T06:55:03.867651+00:00",
     "last_error": "",
     "last_count": 10,
     "peak_count": 10,

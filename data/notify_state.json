@@ -532,8 +532,15 @@
       "company": "网易",
       "title": "资深游戏用户研究员（杭州）",
       "source_id": "cn-netease"
+    },
+    "c81721d055a0a964": {
+      "pushed_at": "2026-11-14T06:57:20.983574+00:00",
+      "first_seen": "2026-11-14T06:51:03.293889+00:00",
+      "company": "网易",
+      "title": "资深GUI设计师",
+      "source_id": "cn-netease"
     }
   },
-  "last_marked_at": "2026-11-12T07:36:37.195057+00:00",
+  "last_marked_at": "2026-11-14T06:57:20.983574+00:00",
   "last_marked_count": 1
 }
