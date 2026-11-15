@@ -94,7 +94,7 @@
       "time_type": "Full time",
       "req_id": "R-799791",
       "can_apply": true,
-      "posted_on": "发布于 17 天前",
+      "posted_on": "发布于 26 天前",
       "location": "Hangzhou, China",
       "additional_locations": [],
       "summary": {
@@ -120,7 +120,7 @@
         },
         "flag": "正文写的是软件工程岗（提到 SDLC / 后端服务 / 应用支持），无设计职责描述"
       },
-      "fetched_at": "2026-11-06T07:14:12.428569+00:00"
+      "fetched_at": "2026-11-15T07:01:53.704258+00:00"
     },
     "d52c58d8654103b3": {
       "source_id": "wd-3m",
@@ -162,5 +162,5 @@
       "fetched_at": "2026-10-23T02:04:36.065296+00:00"
     }
   },
-  "updated_at": "2026-11-14T06:56:08.615562+00:00"
+  "updated_at": "2026-11-15T07:01:53.704798+00:00"
 }
