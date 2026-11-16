@@ -539,8 +539,15 @@
       "company": "网易",
       "title": "资深GUI设计师",
       "source_id": "cn-netease"
+    },
+    "aa179bb03ec75425": {
+      "pushed_at": "2026-11-16T07:08:13.472465+00:00",
+      "first_seen": "2026-11-16T07:00:38.092867+00:00",
+      "company": "网易",
+      "title": "数据平台产品专家",
+      "source_id": "cn-netease"
     }
   },
-  "last_marked_at": "2026-11-14T06:57:20.983574+00:00",
+  "last_marked_at": "2026-11-16T07:08:13.472465+00:00",
   "last_marked_count": 1
 }
