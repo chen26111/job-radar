@@ -546,8 +546,22 @@
       "company": "网易",
       "title": "数据平台产品专家",
       "source_id": "cn-netease"
+    },
+    "eb8f2427119b61b2": {
+      "pushed_at": "2026-11-18T07:56:52.529721+00:00",
+      "first_seen": "2026-11-18T07:49:15.212721+00:00",
+      "company": "网易",
+      "title": "游戏营销视觉设计实习生（AI 视觉方向）",
+      "source_id": "cn-netease"
+    },
+    "c80d08c13a77b63f": {
+      "pushed_at": "2026-11-18T07:56:52.529721+00:00",
+      "first_seen": "2026-11-18T07:49:15.212721+00:00",
+      "company": "网易",
+      "title": "资深反作弊产品策划",
+      "source_id": "cn-netease"
     }
   },
-  "last_marked_at": "2026-11-16T07:08:13.472465+00:00",
-  "last_marked_count": 1
+  "last_marked_at": "2026-11-18T07:56:52.529721+00:00",
+  "last_marked_count": 2
 }
