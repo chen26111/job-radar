@@ -82,46 +82,6 @@
       },
       "fetched_at": "2026-10-23T02:04:32.416935+00:00"
     },
-    "c0f061d97104304c": {
-      "source_id": "wd-statestreet",
-      "company_name": "道富",
-      "title": "Platform Engineering - Dev/UX (Production Website), Off",
-      "jd_html_len": 8506,
-      "jd_text": "Who We Are Looking For\nState Street Investment Management is seeking a hands-on Senior Software Engineer for our China office as part of the Information Technology organization.\nThe successful candidate will support business-critical applications and infrastructure for stakeholders, including application support, BAU activities, and issue resolution for State Street Investment Management applications.\nWhy This Role is Important to Us\nOur Information Technology function plays a critical and strategic role at State Street Investment Management, serving as a core enabler in delivering data‑driven insights and digital capabilities to our clients. We continue to modernize our technology landscape through cloud adoption, advanced data analytics, and automation initiatives, strengthening our ability to support evolving business needs.\nThis role supports business-critical applications with a strong emphasis on technical troubleshooting, application support, automation, and stakeholder collaboration.\nWhat You Will Be Responsible For\n- Design, develop, test, maintain, and support enterprise applications and backend services in accordance with established software development lifecycle (SDLC) standards.\n- Take ownership of assigned applications, components, or services from requirements analysis through production deployment, BAU support, and ongoing issue resolution.\n- Ensure applications meet performance, security, availability, and scalability requirements.\n- Produce and maintain technical documentation to support application support and future enhancements\n- Collaborate effectively with business users, infrastructure teams, vendors, and global technology partners to resolve incidents and service requests in a timely manner.\n- Develop and maintain backend services using Java and Springboot:\nDesign, build, and support RESTful APIs\nDevelop and maintain database solutions, including data modeling and SQL development\nIntegrate backend services with frontend applications and third party systems\nSupport service oriented and microservices based architectures\n- Develop and maintain quick web based demo and service using skills:\nHTML\nCSS\nJavaScript\nReact JS\nWhat We Value\n- Strong sense of ownership and accountability for delivery, quality, and system stability\n- Ability to work independently with minimal supervision\n- Strong analytical and problem‑solving skills\n- Clear and effective written and verbal communication skills\nEducation & Preferred Qualifications/Skills\n- Bachelor’s degree in Engineering, Computer Science, Business, or a related field\n- 5+ years of hands-on development, application support, or technical troubleshooting experience with at least one programming language.\n- Experience with microservices or distributed systems\n- Exposure to cloud platforms or container based deployment models\n- Prior experience in financial services or regulated industries\nWhere Will The Role Be Based\nThe role will be based in Hangzhou, China.\nAcross the globe, institutional investors rely on us to help them manage risk, respond to challenges, and drive performance and profitability. We keep our clients at the heart of everything we do, and smart, engaged employees are essential to our continued success.\nWe are committed to fostering an environment where every employee feels valued and empowered to reach their full potential. As an essential partner in our shared success, you’ll benefit from inclusive development opportunities, flexible work-life support, paid volunteer days, and vibrant employee networks that keep you connected to what matters most. Join us in shaping the future.",
-      "jd_hash": "451910a33eea9f0c",
-      "start_date": "2026-10-19",
-      "end_date": "2026-12-31",
-      "time_type": "Full time",
-      "req_id": "R-799791",
-      "can_apply": true,
-      "posted_on": "发布于 26 天前",
-      "location": "Hangzhou, China",
-      "additional_locations": [],
-      "summary": {
-        "has_jd": true,
-        "lang": "en",
-        "duty": [
-          "Design, develop, test, maintain, and support enterprise applications and backend services in accordance with…",
-          "Take ownership of assigned applications, components, or services from requirements analysis through…",
-          "Ensure applications meet performance, security, availability, and scalability requirements."
-        ],
-        "must": [
-          "Strong sense of ownership and accountability for delivery, quality, and system stability",
-          "Ability to work independently with minimal supervision",
-          "Strong analytical and problem‑solving skills"
-        ],
-        "facts": {
-          "years": "5 年以上",
-          "tools": [
-            "HTML/CSS",
-            "JavaScript"
-          ],
-          "education": "本科"
-        },
-        "flag": "正文写的是软件工程岗（提到 SDLC / 后端服务 / 应用支持），无设计职责描述"
-      },
-      "fetched_at": "2026-11-15T07:01:53.704258+00:00"
-    },
     "d52c58d8654103b3": {
       "source_id": "wd-3m",
       "company_name": "3M",
@@ -162,5 +122,5 @@
       "fetched_at": "2026-10-23T02:04:36.065296+00:00"
     }
   },
-  "updated_at": "2026-11-18T07:55:42.356868+00:00"
+  "updated_at": "2026-11-19T07:50:42.454470+00:00"
 }

@@ -560,8 +560,15 @@
       "company": "网易",
       "title": "资深反作弊产品策划",
       "source_id": "cn-netease"
+    },
+    "c24ba01c1c63f70d": {
+      "pushed_at": "2026-11-19T07:52:04.346289+00:00",
+      "first_seen": "2026-11-19T07:44:45.278158+00:00",
+      "company": "网易",
+      "title": "资深产品策划（游戏营销方向）",
+      "source_id": "cn-netease"
     }
   },
-  "last_marked_at": "2026-11-18T07:56:52.529721+00:00",
-  "last_marked_count": 2
+  "last_marked_at": "2026-11-19T07:52:04.346289+00:00",
+  "last_marked_count": 1
 }
