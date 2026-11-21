@@ -1,36 +1,36 @@
 {
   "wd-pfizer": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "status": "active",
     "last_success_at": "2026-11-20T07:37:10.995632+00:00",
-    "last_error": "",
+    "last_error": "RuntimeError: workday 探针失败 pfizer.wd1.myworkdayjobs.com/pfizer/PfizerCareers: Expecting value: line 1 column 1 (char 0)",
     "last_count": 317,
     "peak_count": 317,
     "alert": ""
   },
   "wd-statestreet": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "status": "active",
     "last_success_at": "2026-11-20T07:37:16.462925+00:00",
-    "last_error": "",
+    "last_error": "RuntimeError: workday 探针失败 statestreet.wd1.myworkdayjobs.com/statestreet/Global: Expecting value: line 1 column 1 (char 0)",
     "last_count": 109,
     "peak_count": 141,
     "alert": ""
   },
   "wd-ringcentral": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "status": "active",
     "last_success_at": "2026-11-20T07:37:21.716759+00:00",
-    "last_error": "",
+    "last_error": "RuntimeError: workday 探针失败 ringcentral.wd1.myworkdayjobs.com/ringcentral/RingCentral_Careers: Expecting value: line 1 column 1 (char 0)",
     "last_count": 1,
     "peak_count": 1,
     "alert": ""
   },
   "wd-amat": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "status": "active",
     "last_success_at": "2026-11-20T07:37:49.232770+00:00",
-    "last_error": "",
+    "last_error": "RuntimeError: workday 探针失败 amat.wd1.myworkdayjobs.com/amat/External: Expecting value: line 1 column 1 (char 0)",
     "last_count": 164,
     "peak_count": 164,
     "alert": ""
@@ -81,10 +81,10 @@
     "alert": ""
   },
   "wd-astrazeneca": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 2,
     "status": "active",
     "last_success_at": "2026-11-20T07:43:09.241001+00:00",
-    "last_error": "",
+    "last_error": "RuntimeError: workday 探针失败 astrazeneca.wd3.myworkdayjobs.com/astrazeneca/Careers: Expecting value: line 1 column 1 (char 0)",
     "last_count": 616,
     "peak_count": 636,
     "alert": ""
@@ -99,10 +99,10 @@
     "alert": ""
   },
   "wd-zoom": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "status": "active",
     "last_success_at": "2026-11-20T07:37:32.962069+00:00",
-    "last_error": "",
+    "last_error": "RuntimeError: workday 探针失败 zoom.wd5.myworkdayjobs.com/zoom/Zoom: Expecting value: line 1 column 1 (char 0)",
     "last_count": 0,
     "peak_count": 0,
     "alert": ""
@@ -110,34 +110,34 @@
   "cn-netease": {
     "consecutive_failures": 0,
     "status": "active",
-    "last_success_at": "2026-11-20T07:39:08.353904+00:00",
+    "last_success_at": "2026-11-21T07:32:29.001710+00:00",
     "last_error": "",
-    "last_count": 561,
+    "last_count": 564,
     "peak_count": 591,
     "alert": ""
   },
   "cn-bytedance": {
     "consecutive_failures": 0,
     "status": "active",
-    "last_success_at": "2026-11-20T07:41:13.910026+00:00",
+    "last_success_at": "2026-11-21T07:33:48.590532+00:00",
     "last_error": "",
-    "last_count": 709,
+    "last_count": 713,
     "peak_count": 729,
     "alert": ""
   },
   "cn-tencent": {
     "consecutive_failures": 0,
     "status": "active",
-    "last_success_at": "2026-11-20T07:41:33.189890+00:00",
+    "last_success_at": "2026-11-21T07:34:15.157066+00:00",
     "last_error": "",
-    "last_count": 496,
+    "last_count": 500,
     "peak_count": 526,
     "alert": ""
   },
   "cn-meituan": {
     "consecutive_failures": 0,
     "status": "active",
-    "last_success_at": "2026-11-20T07:41:50.430033+00:00",
+    "last_success_at": "2026-11-21T07:34:30.290880+00:00",
     "last_error": "",
     "last_count": 200,
     "peak_count": 200,
@@ -146,7 +146,7 @@
   "cn-jd": {
     "consecutive_failures": 0,
     "status": "active",
-    "last_success_at": "2026-11-20T07:42:07.230726+00:00",
+    "last_success_at": "2026-11-21T07:34:58.496185+00:00",
     "last_error": "",
     "last_count": 10,
     "peak_count": 10,
