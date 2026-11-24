@@ -574,8 +574,15 @@
       "company": "网易",
       "title": "渠道视觉设计师",
       "source_id": "cn-netease"
+    },
+    "0684cc4940ef2bba": {
+      "pushed_at": "2026-11-24T10:19:51.231279+00:00",
+      "first_seen": "2026-11-24T10:12:56.606263+00:00",
+      "company": "字节跳动",
+      "title": "游戏资深UI设计师 - 心光工作室",
+      "source_id": "cn-bytedance"
     }
   },
-  "last_marked_at": "2026-11-21T07:36:24.989063+00:00",
+  "last_marked_at": "2026-11-24T10:19:51.231279+00:00",
   "last_marked_count": 1
 }
