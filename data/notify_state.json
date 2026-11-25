@@ -581,8 +581,15 @@
       "company": "字节跳动",
       "title": "游戏资深UI设计师 - 心光工作室",
       "source_id": "cn-bytedance"
+    },
+    "06821de65fcf6c78": {
+      "pushed_at": "2026-11-25T09:04:14.162459+00:00",
+      "first_seen": "2026-11-25T08:57:11.878236+00:00",
+      "company": "网易",
+      "title": "UGC运营策划（开发者运营向AI产品经理）",
+      "source_id": "cn-netease"
     }
   },
-  "last_marked_at": "2026-11-24T10:19:51.231279+00:00",
+  "last_marked_at": "2026-11-25T09:04:14.162459+00:00",
   "last_marked_count": 1
 }
